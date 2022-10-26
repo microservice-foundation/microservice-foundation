@@ -1,0 +1,252 @@
+2022-10-13 21:57:46 [Test worker] INFO  : Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2022-10-13 21:57:47 [Test worker] INFO  : Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2022-10-13 21:57:47 [Test worker] INFO  : Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+2022-10-13 21:57:47 [Test worker] INFO  : Docker host IP address is localhost
+2022-10-13 21:57:47 [Test worker] INFO  : Connected to docker: 
+  Server Version: 20.10.17
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 10215 MB
+2022-10-13 21:57:48 [Test worker] INFO  : Creating container for image: testcontainers/ryuk:0.3.4
+2022-10-13 21:57:48 [Test worker] INFO  : Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+2022-10-13 21:57:48 [Test worker] INFO  : Container testcontainers/ryuk:0.3.4 is starting: 7b7078c375689502a0aad7b13654d8ccb699224410184edae31a737c70cbcdba
+2022-10-13 21:57:48 [Test worker] INFO  : Container testcontainers/ryuk:0.3.4 started in PT0.821354S
+2022-10-13 21:57:48 [Test worker] INFO  : Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2022-10-13 21:57:48 [Test worker] INFO  : Checking the system...
+2022-10-13 21:57:48 [Test worker] INFO  : ✔︎ Docker server version should be at least 1.6.0
+2022-10-13 21:57:48 [Test worker] INFO  : Pulling docker image: localstack/localstack:1.0.0. Please be patient; this may take some time but only needs to be done once.
+2022-10-13 21:57:52 [docker-java-stream-1190864388] INFO  : Starting to pull image
+2022-10-13 21:57:52 [docker-java-stream-1190864388] INFO  : Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes)
+2022-10-13 21:57:56 [docker-java-stream-1190864388] INFO  : Pulling image layers: 33 pending,  1 downloaded,  0 extracted, (13 MB/? MB)
+2022-10-13 21:57:57 [docker-java-stream-1190864388] INFO  : Pulling image layers: 32 pending,  2 downloaded,  0 extracted, (18 MB/? MB)
+2022-10-13 21:57:58 [docker-java-stream-1190864388] INFO  : Pulling image layers: 31 pending,  3 downloaded,  0 extracted, (20 MB/? MB)
+2022-10-13 21:58:00 [docker-java-stream-1190864388] INFO  : Pulling image layers: 30 pending,  4 downloaded,  0 extracted, (28 MB/? MB)
+2022-10-13 21:58:01 [docker-java-stream-1190864388] INFO  : Pulling image layers: 29 pending,  5 downloaded,  0 extracted, (34 MB/? MB)
+2022-10-13 21:58:03 [docker-java-stream-1190864388] INFO  : Pulling image layers: 28 pending,  6 downloaded,  0 extracted, (49 MB/? MB)
+2022-10-13 21:58:04 [docker-java-stream-1190864388] INFO  : Pulling image layers: 27 pending,  7 downloaded,  0 extracted, (58 MB/? MB)
+2022-10-13 21:58:04 [docker-java-stream-1190864388] INFO  : Pulling image layers: 27 pending,  7 downloaded,  1 extracted, (58 MB/? MB)
+2022-10-13 21:58:05 [docker-java-stream-1190864388] INFO  : Pulling image layers: 27 pending,  7 downloaded,  2 extracted, (60 MB/? MB)
+2022-10-13 21:58:05 [docker-java-stream-1190864388] INFO  : Pulling image layers: 27 pending,  7 downloaded,  3 extracted, (65 MB/? MB)
+2022-10-13 21:58:05 [docker-java-stream-1190864388] INFO  : Pulling image layers: 27 pending,  7 downloaded,  4 extracted, (67 MB/? MB)
+2022-10-13 21:58:06 [docker-java-stream-1190864388] INFO  : Pulling image layers: 27 pending,  7 downloaded,  5 extracted, (69 MB/? MB)
+2022-10-13 21:58:06 [docker-java-stream-1190864388] INFO  : Pulling image layers: 26 pending,  8 downloaded,  5 extracted, (71 MB/? MB)
+2022-10-13 21:58:07 [docker-java-stream-1190864388] INFO  : Pulling image layers: 25 pending,  9 downloaded,  5 extracted, (81 MB/? MB)
+2022-10-13 21:58:13 [docker-java-stream-1190864388] INFO  : Pulling image layers: 24 pending, 10 downloaded,  5 extracted, (145 MB/? MB)
+2022-10-13 21:58:13 [docker-java-stream-1190864388] INFO  : Pulling image layers: 23 pending, 11 downloaded,  5 extracted, (147 MB/? MB)
+2022-10-13 21:58:14 [docker-java-stream-1190864388] INFO  : Pulling image layers: 22 pending, 12 downloaded,  5 extracted, (152 MB/? MB)
+2022-10-13 21:58:14 [docker-java-stream-1190864388] INFO  : Pulling image layers: 21 pending, 13 downloaded,  5 extracted, (153 MB/? MB)
+2022-10-13 21:58:15 [docker-java-stream-1190864388] INFO  : Pulling image layers: 20 pending, 14 downloaded,  5 extracted, (157 MB/? MB)
+2022-10-13 21:58:15 [docker-java-stream-1190864388] INFO  : Pulling image layers: 19 pending, 15 downloaded,  5 extracted, (158 MB/? MB)
+2022-10-13 21:58:17 [docker-java-stream-1190864388] INFO  : Pulling image layers: 18 pending, 16 downloaded,  5 extracted, (166 MB/? MB)
+2022-10-13 21:58:18 [docker-java-stream-1190864388] INFO  : Pulling image layers: 17 pending, 17 downloaded,  5 extracted, (177 MB/? MB)
+2022-10-13 21:58:19 [docker-java-stream-1190864388] INFO  : Pulling image layers: 16 pending, 18 downloaded,  5 extracted, (189 MB/? MB)
+2022-10-13 21:58:20 [docker-java-stream-1190864388] INFO  : Pulling image layers: 15 pending, 19 downloaded,  5 extracted, (199 MB/? MB)
+2022-10-13 21:58:20 [docker-java-stream-1190864388] INFO  : Pulling image layers: 14 pending, 20 downloaded,  5 extracted, (203 MB/? MB)
+2022-10-13 21:58:21 [docker-java-stream-1190864388] INFO  : Pulling image layers: 13 pending, 21 downloaded,  5 extracted, (211 MB/? MB)
+2022-10-13 21:58:22 [docker-java-stream-1190864388] INFO  : Pulling image layers: 12 pending, 22 downloaded,  5 extracted, (217 MB/? MB)
+2022-10-13 21:58:24 [docker-java-stream-1190864388] INFO  : Pulling image layers: 11 pending, 23 downloaded,  5 extracted, (229 MB/? MB)
+2022-10-13 21:58:27 [docker-java-stream-1190864388] INFO  : Pulling image layers: 10 pending, 24 downloaded,  5 extracted, (254 MB/? MB)
+2022-10-13 21:58:28 [docker-java-stream-1190864388] INFO  : Pulling image layers:  9 pending, 25 downloaded,  5 extracted, (259 MB/? MB)
+2022-10-13 21:58:29 [docker-java-stream-1190864388] INFO  : Pulling image layers:  8 pending, 26 downloaded,  5 extracted, (263 MB/? MB)
+2022-10-13 21:58:33 [docker-java-stream-1190864388] INFO  : Pulling image layers:  8 pending, 26 downloaded,  6 extracted, (293 MB/? MB)
+2022-10-13 21:58:33 [docker-java-stream-1190864388] INFO  : Pulling image layers:  8 pending, 26 downloaded,  7 extracted, (293 MB/? MB)
+2022-10-13 21:58:34 [docker-java-stream-1190864388] INFO  : Pulling image layers:  8 pending, 26 downloaded,  8 extracted, (303 MB/? MB)
+2022-10-13 21:58:34 [docker-java-stream-1190864388] INFO  : Pulling image layers:  8 pending, 26 downloaded,  9 extracted, (304 MB/? MB)
+2022-10-13 21:58:34 [docker-java-stream-1190864388] INFO  : Pulling image layers:  8 pending, 26 downloaded, 10 extracted, (304 MB/? MB)
+2022-10-13 21:58:34 [docker-java-stream-1190864388] INFO  : Pulling image layers:  8 pending, 26 downloaded, 11 extracted, (306 MB/? MB)
+2022-10-13 21:58:35 [docker-java-stream-1190864388] INFO  : Pulling image layers:  8 pending, 26 downloaded, 12 extracted, (308 MB/? MB)
+2022-10-13 21:58:35 [docker-java-stream-1190864388] INFO  : Pulling image layers:  8 pending, 26 downloaded, 13 extracted, (309 MB/? MB)
+2022-10-13 21:58:35 [docker-java-stream-1190864388] INFO  : Pulling image layers:  8 pending, 26 downloaded, 14 extracted, (310 MB/? MB)
+2022-10-13 21:58:35 [docker-java-stream-1190864388] INFO  : Pulling image layers:  8 pending, 26 downloaded, 15 extracted, (311 MB/? MB)
+2022-10-13 21:58:35 [docker-java-stream-1190864388] INFO  : Pulling image layers:  8 pending, 26 downloaded, 16 extracted, (311 MB/? MB)
+2022-10-13 21:58:35 [docker-java-stream-1190864388] INFO  : Pulling image layers:  8 pending, 26 downloaded, 17 extracted, (311 MB/? MB)
+2022-10-13 21:58:36 [docker-java-stream-1190864388] INFO  : Pulling image layers:  8 pending, 26 downloaded, 18 extracted, (317 MB/? MB)
+2022-10-13 21:58:36 [docker-java-stream-1190864388] INFO  : Pulling image layers:  8 pending, 26 downloaded, 19 extracted, (317 MB/? MB)
+2022-10-13 21:58:36 [docker-java-stream-1190864388] INFO  : Pulling image layers:  8 pending, 26 downloaded, 20 extracted, (317 MB/? MB)
+2022-10-13 21:58:36 [docker-java-stream-1190864388] INFO  : Pulling image layers:  8 pending, 26 downloaded, 21 extracted, (318 MB/? MB)
+2022-10-13 21:58:36 [docker-java-stream-1190864388] INFO  : Pulling image layers:  8 pending, 26 downloaded, 22 extracted, (319 MB/? MB)
+2022-10-13 21:58:36 [docker-java-stream-1190864388] INFO  : Pulling image layers:  8 pending, 26 downloaded, 23 extracted, (320 MB/? MB)
+2022-10-13 21:58:36 [docker-java-stream-1190864388] INFO  : Pulling image layers:  7 pending, 27 downloaded, 23 extracted, (322 MB/? MB)
+2022-10-13 21:58:40 [docker-java-stream-1190864388] INFO  : Pulling image layers:  6 pending, 28 downloaded, 23 extracted, (356 MB/? MB)
+2022-10-13 21:58:41 [docker-java-stream-1190864388] INFO  : Pulling image layers:  5 pending, 29 downloaded, 23 extracted, (363 MB/? MB)
+2022-10-13 21:58:44 [docker-java-stream-1190864388] INFO  : Pulling image layers:  4 pending, 30 downloaded, 23 extracted, (378 MB/? MB)
+2022-10-13 21:58:46 [docker-java-stream-1190864388] INFO  : Pulling image layers:  4 pending, 30 downloaded, 24 extracted, (388 MB/? MB)
+2022-10-13 21:58:47 [docker-java-stream-1190864388] INFO  : Pulling image layers:  4 pending, 30 downloaded, 25 extracted, (389 MB/? MB)
+2022-10-13 21:58:48 [docker-java-stream-1190864388] INFO  : Pulling image layers:  4 pending, 30 downloaded, 26 extracted, (395 MB/? MB)
+2022-10-13 21:58:48 [docker-java-stream-1190864388] INFO  : Pulling image layers:  4 pending, 30 downloaded, 27 extracted, (395 MB/? MB)
+2022-10-13 21:58:48 [docker-java-stream-1190864388] INFO  : Pulling image layers:  4 pending, 30 downloaded, 28 extracted, (396 MB/? MB)
+2022-10-13 21:58:51 [docker-java-stream-1190864388] INFO  : Pulling image layers:  3 pending, 31 downloaded, 28 extracted, (417 MB/? MB)
+2022-10-13 21:58:52 [docker-java-stream-1190864388] INFO  : Pulling image layers:  3 pending, 31 downloaded, 29 extracted, (420 MB/? MB)
+2022-10-13 21:58:53 [docker-java-stream-1190864388] INFO  : Pulling image layers:  2 pending, 32 downloaded, 29 extracted, (432 MB/? MB)
+2022-10-13 21:58:56 [docker-java-stream-1190864388] INFO  : Pulling image layers:  1 pending, 33 downloaded, 29 extracted, (461 MB/? MB)
+2022-10-13 21:58:57 [docker-java-stream-1190864388] INFO  : Pulling image layers:  1 pending, 33 downloaded, 30 extracted, (467 MB/? MB)
+2022-10-13 21:58:58 [docker-java-stream-1190864388] INFO  : Pulling image layers:  1 pending, 33 downloaded, 31 extracted, (468 MB/? MB)
+2022-10-13 21:59:10 [docker-java-stream-1190864388] INFO  : Pulling image layers:  0 pending, 34 downloaded, 31 extracted, (562 MB/565 MB)
+2022-10-13 21:59:12 [docker-java-stream-1190864388] INFO  : Pulling image layers:  0 pending, 34 downloaded, 32 extracted, (564 MB/565 MB)
+2022-10-13 21:59:13 [docker-java-stream-1190864388] INFO  : Pulling image layers:  0 pending, 34 downloaded, 33 extracted, (564 MB/565 MB)
+2022-10-13 21:59:13 [docker-java-stream-1190864388] INFO  : Pulling image layers:  0 pending, 34 downloaded, 34 extracted, (565 MB/565 MB)
+2022-10-13 21:59:13 [docker-java-stream-1190864388] INFO  : Pull complete. 34 layers, pulled in 81s (downloaded 565 MB at 6 MB/s)
+2022-10-13 21:59:13 [Test worker] INFO  : HOSTNAME_EXTERNAL environment variable set to localhost (to match host-routable address for container)
+2022-10-13 21:59:13 [Test worker] INFO  : Creating container for image: localstack/localstack:1.0.0
+2022-10-13 21:59:14 [Test worker] INFO  : Container localstack/localstack:1.0.0 is starting: ec4ecc0485f0d0aed55f2a49f60a75ef635b58065d0e255407591da94f980ff7
+2022-10-13 21:59:18 [Test worker] INFO  : Container localstack/localstack:1.0.0 started in PT5.116768S
+2022-10-13 22:01:06 [Test worker] INFO  : Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2022-10-13 22:01:06 [Test worker] INFO  : Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2022-10-13 22:01:07 [Test worker] INFO  : Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+2022-10-13 22:01:07 [Test worker] INFO  : Docker host IP address is localhost
+2022-10-13 22:01:07 [Test worker] INFO  : Connected to docker: 
+  Server Version: 20.10.17
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 10215 MB
+2022-10-13 22:01:07 [Test worker] INFO  : Creating container for image: testcontainers/ryuk:0.3.4
+2022-10-13 22:01:07 [Test worker] INFO  : Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+2022-10-13 22:01:07 [Test worker] INFO  : Container testcontainers/ryuk:0.3.4 is starting: ec0794d48d994c41ede4becfeb73a9c0ba9388676dbd7a3bc2878c73ad701ec0
+2022-10-13 22:01:07 [Test worker] INFO  : Container testcontainers/ryuk:0.3.4 started in PT0.719364S
+2022-10-13 22:01:07 [Test worker] INFO  : Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2022-10-13 22:01:07 [Test worker] INFO  : Checking the system...
+2022-10-13 22:01:07 [Test worker] INFO  : ✔︎ Docker server version should be at least 1.6.0
+2022-10-13 22:01:07 [Test worker] INFO  : HOSTNAME_EXTERNAL environment variable set to localhost (to match host-routable address for container)
+2022-10-13 22:01:07 [Test worker] INFO  : Creating container for image: localstack/localstack:1.0.0
+2022-10-13 22:01:08 [Test worker] INFO  : Container localstack/localstack:1.0.0 is starting: 6dc78a702438bf07082e53ab9f245c19f333e7658e8c567d119ac3e91179acf5
+2022-10-13 22:01:12 [Test worker] INFO  : Container localstack/localstack:1.0.0 started in PT4.547199S
+2022-10-13 22:02:04 [Test worker] INFO  : Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2022-10-13 22:02:04 [Test worker] INFO  : Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2022-10-13 22:02:05 [Test worker] INFO  : Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+2022-10-13 22:02:05 [Test worker] INFO  : Docker host IP address is localhost
+2022-10-13 22:02:05 [Test worker] INFO  : Connected to docker: 
+  Server Version: 20.10.17
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 10215 MB
+2022-10-13 22:02:05 [Test worker] INFO  : Creating container for image: testcontainers/ryuk:0.3.4
+2022-10-13 22:02:05 [Test worker] INFO  : Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+2022-10-13 22:02:05 [Test worker] INFO  : Container testcontainers/ryuk:0.3.4 is starting: 8b92ec0959c89453ed39747d1c9fc8f31345a85086d85bfabea00e4c7f06350b
+2022-10-13 22:02:06 [Test worker] INFO  : Container testcontainers/ryuk:0.3.4 started in PT0.617503S
+2022-10-13 22:02:06 [Test worker] INFO  : Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2022-10-13 22:02:06 [Test worker] INFO  : Checking the system...
+2022-10-13 22:02:06 [Test worker] INFO  : ✔︎ Docker server version should be at least 1.6.0
+2022-10-13 22:02:06 [Test worker] INFO  : HOSTNAME_EXTERNAL environment variable set to localhost (to match host-routable address for container)
+2022-10-13 22:02:06 [Test worker] INFO  : Creating container for image: localstack/localstack:1.0.0
+2022-10-13 22:02:06 [Test worker] INFO  : Container localstack/localstack:1.0.0 is starting: 9123824d7303f2c1b14bf6537c631d1c2bcfa7f45cf0ae222fe5a3f309fdcd1e
+2022-10-13 22:02:10 [Test worker] INFO  : Container localstack/localstack:1.0.0 started in PT4.097472S
+2022-10-13 22:03:14 [Test worker] INFO  : Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2022-10-13 22:03:14 [Test worker] INFO  : Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2022-10-13 22:03:15 [Test worker] INFO  : Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+2022-10-13 22:03:15 [Test worker] INFO  : Docker host IP address is localhost
+2022-10-13 22:03:15 [Test worker] INFO  : Connected to docker: 
+  Server Version: 20.10.17
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 10215 MB
+2022-10-13 22:03:15 [Test worker] INFO  : Creating container for image: testcontainers/ryuk:0.3.4
+2022-10-13 22:03:15 [Test worker] INFO  : Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+2022-10-13 22:03:15 [Test worker] INFO  : Container testcontainers/ryuk:0.3.4 is starting: 5e6e0c2977db4a52d13b7cbc865d5533b7588179c0c04ffd537130580fb225e9
+2022-10-13 22:03:15 [Test worker] INFO  : Container testcontainers/ryuk:0.3.4 started in PT0.579227S
+2022-10-13 22:03:15 [Test worker] INFO  : Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2022-10-13 22:03:15 [Test worker] INFO  : Checking the system...
+2022-10-13 22:03:15 [Test worker] INFO  : ✔︎ Docker server version should be at least 1.6.0
+2022-10-13 22:03:15 [Test worker] INFO  : HOSTNAME_EXTERNAL environment variable set to localhost (to match host-routable address for container)
+2022-10-13 22:03:15 [Test worker] INFO  : Creating container for image: localstack/localstack:1.0.0
+2022-10-13 22:03:16 [Test worker] INFO  : Container localstack/localstack:1.0.0 is starting: c69eef1c82ee7892aaa471ddbc6e6874fb291def11e190a0594929dd00af9103
+2022-10-13 22:03:20 [Test worker] INFO  : Container localstack/localstack:1.0.0 started in PT4.466822S
+2022-10-13 22:04:08 [Test worker] INFO  : Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2022-10-13 22:04:08 [Test worker] INFO  : Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2022-10-13 22:04:08 [Test worker] INFO  : Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+2022-10-13 22:04:08 [Test worker] INFO  : Docker host IP address is localhost
+2022-10-13 22:04:08 [Test worker] INFO  : Connected to docker: 
+  Server Version: 20.10.17
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 10215 MB
+2022-10-13 22:04:08 [Test worker] INFO  : Creating container for image: testcontainers/ryuk:0.3.4
+2022-10-13 22:04:09 [Test worker] INFO  : Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+2022-10-13 22:04:09 [Test worker] INFO  : Container testcontainers/ryuk:0.3.4 is starting: c82f339aa28a2c59a18cb67e4f63318f352ab38e6eee9878b87aab1c7b65d5c3
+2022-10-13 22:04:09 [Test worker] INFO  : Container testcontainers/ryuk:0.3.4 started in PT0.598053S
+2022-10-13 22:04:09 [Test worker] INFO  : Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2022-10-13 22:04:09 [Test worker] INFO  : Checking the system...
+2022-10-13 22:04:09 [Test worker] INFO  : ✔︎ Docker server version should be at least 1.6.0
+2022-10-13 22:04:09 [Test worker] INFO  : HOSTNAME_EXTERNAL environment variable set to localhost (to match host-routable address for container)
+2022-10-13 22:04:09 [Test worker] INFO  : Creating container for image: localstack/localstack:1.0.0
+2022-10-13 22:04:10 [Test worker] INFO  : Container localstack/localstack:1.0.0 is starting: a0ad7b9b9cb1c2c836c9a29df1e2aa3e398b2a9bb0d9cb3fe2f913c2e42f447d
+2022-10-13 22:04:14 [Test worker] INFO  : Container localstack/localstack:1.0.0 started in PT4.772306S
+2022-10-13 22:05:16 [Test worker] INFO  : Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2022-10-13 22:05:16 [Test worker] INFO  : Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2022-10-13 22:05:17 [Test worker] INFO  : Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+2022-10-13 22:05:17 [Test worker] INFO  : Docker host IP address is localhost
+2022-10-13 22:05:17 [Test worker] INFO  : Connected to docker: 
+  Server Version: 20.10.17
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 10215 MB
+2022-10-13 22:05:17 [Test worker] INFO  : Creating container for image: testcontainers/ryuk:0.3.4
+2022-10-13 22:05:17 [Test worker] INFO  : Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+2022-10-13 22:05:18 [Test worker] INFO  : Container testcontainers/ryuk:0.3.4 is starting: 53e2a630a12365a6a1c7f8745f8af1148768fd68b7358e72dd00b031c3e77a3c
+2022-10-13 22:05:18 [Test worker] INFO  : Container testcontainers/ryuk:0.3.4 started in PT0.545679S
+2022-10-13 22:05:18 [Test worker] INFO  : Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2022-10-13 22:05:18 [Test worker] INFO  : Checking the system...
+2022-10-13 22:05:18 [Test worker] INFO  : ✔︎ Docker server version should be at least 1.6.0
+2022-10-13 22:05:18 [Test worker] INFO  : HOSTNAME_EXTERNAL environment variable set to localhost (to match host-routable address for container)
+2022-10-13 22:05:18 [Test worker] INFO  : Creating container for image: localstack/localstack:1.0.0
+2022-10-13 22:05:18 [Test worker] INFO  : Container localstack/localstack:1.0.0 is starting: 9b2a61295c3f699213971989654efc6f7c616e91a439bee699728d8cb84526f9
+2022-10-13 22:05:22 [Test worker] INFO  : Container localstack/localstack:1.0.0 started in PT4.487891S
+2022-10-13 22:05:35 [Test worker] INFO  : Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2022-10-13 22:05:35 [Test worker] INFO  : Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2022-10-13 22:05:35 [Test worker] INFO  : Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+2022-10-13 22:05:35 [Test worker] INFO  : Docker host IP address is localhost
+2022-10-13 22:05:35 [Test worker] INFO  : Connected to docker: 
+  Server Version: 20.10.17
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 10215 MB
+2022-10-13 22:05:35 [Test worker] INFO  : Creating container for image: testcontainers/ryuk:0.3.4
+2022-10-13 22:05:35 [Test worker] INFO  : Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+2022-10-13 22:05:35 [Test worker] INFO  : Container testcontainers/ryuk:0.3.4 is starting: ce7ae1d92be9536c8d8378f06607092300b91139cfe862d23dbd65f43c8ee079
+2022-10-13 22:05:36 [Test worker] INFO  : Container testcontainers/ryuk:0.3.4 started in PT0.551773S
+2022-10-13 22:05:36 [Test worker] INFO  : Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2022-10-13 22:05:36 [Test worker] INFO  : Checking the system...
+2022-10-13 22:05:36 [Test worker] INFO  : ✔︎ Docker server version should be at least 1.6.0
+2022-10-13 22:05:36 [Test worker] INFO  : HOSTNAME_EXTERNAL environment variable set to localhost (to match host-routable address for container)
+2022-10-13 22:05:36 [Test worker] INFO  : Creating container for image: localstack/localstack:1.0.0
+2022-10-13 22:05:36 [Test worker] INFO  : Container localstack/localstack:1.0.0 is starting: 2051669fbef51fb1b32c9abe172a6586535ffdc5d0867636bcf069d7b5e98b62
+2022-10-13 22:05:40 [Test worker] INFO  : Container localstack/localstack:1.0.0 started in PT4.118208S
+2022-10-13 22:07:58 [Test worker] INFO  : Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2022-10-13 22:07:58 [Test worker] INFO  : Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2022-10-13 22:07:59 [Test worker] INFO  : Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+2022-10-13 22:07:59 [Test worker] INFO  : Docker host IP address is localhost
+2022-10-13 22:07:59 [Test worker] INFO  : Connected to docker: 
+  Server Version: 20.10.17
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 10215 MB
+2022-10-13 22:07:59 [Test worker] INFO  : Creating container for image: testcontainers/ryuk:0.3.4
+2022-10-13 22:07:59 [Test worker] INFO  : Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+2022-10-13 22:07:59 [Test worker] INFO  : Container testcontainers/ryuk:0.3.4 is starting: 6174c2722dd7bdc53549e3f747db365a9dc97501c0f1bac4ca8477b492c68a46
+2022-10-13 22:07:59 [Test worker] INFO  : Container testcontainers/ryuk:0.3.4 started in PT0.668746S
+2022-10-13 22:07:59 [Test worker] INFO  : Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2022-10-13 22:07:59 [Test worker] INFO  : Checking the system...
+2022-10-13 22:07:59 [Test worker] INFO  : ✔︎ Docker server version should be at least 1.6.0
+2022-10-13 22:07:59 [Test worker] INFO  : HOSTNAME_EXTERNAL environment variable set to localhost (to match host-routable address for container)
+2022-10-13 22:07:59 [Test worker] INFO  : Creating container for image: localstack/localstack:1.0.0
+2022-10-13 22:08:00 [Test worker] INFO  : Container localstack/localstack:1.0.0 is starting: d450567c85af86312689d814dcda16d9dea20bc479beea49061147f144787035
+2022-10-13 22:08:04 [Test worker] INFO  : Container localstack/localstack:1.0.0 started in PT4.525113S
+2022-10-13 22:08:44 [Test worker] INFO  : Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2022-10-13 22:08:44 [Test worker] INFO  : Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2022-10-13 22:08:45 [Test worker] INFO  : Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+2022-10-13 22:08:45 [Test worker] INFO  : Docker host IP address is localhost
+2022-10-13 22:08:45 [Test worker] INFO  : Connected to docker: 
+  Server Version: 20.10.17
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 10215 MB
+2022-10-13 22:08:45 [Test worker] INFO  : Creating container for image: testcontainers/ryuk:0.3.4
+2022-10-13 22:08:45 [Test worker] INFO  : Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+2022-10-13 22:08:45 [Test worker] INFO  : Container testcontainers/ryuk:0.3.4 is starting: 7a0875fe4af6d9a9a6be2b9a9f79557e9ef6928cd88cc7dede3fd2461604b534
+2022-10-13 22:08:45 [Test worker] INFO  : Container testcontainers/ryuk:0.3.4 started in PT0.59602S
+2022-10-13 22:08:46 [Test worker] INFO  : Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2022-10-13 22:08:46 [Test worker] INFO  : Checking the system...
+2022-10-13 22:08:46 [Test worker] INFO  : ✔︎ Docker server version should be at least 1.6.0
+2022-10-13 22:08:46 [Test worker] INFO  : HOSTNAME_EXTERNAL environment variable set to localhost (to match host-routable address for container)
+2022-10-13 22:08:46 [Test worker] INFO  : Creating container for image: localstack/localstack:1.0.0
+2022-10-13 22:08:47 [Test worker] INFO  : Container localstack/localstack:1.0.0 is starting: b2a264bacd21950b66c7914f81c75b3a3b5881a0e6853e6b576a463d92e62137
+2022-10-13 22:08:50 [Test worker] INFO  : Container localstack/localstack:1.0.0 started in PT4.196608S

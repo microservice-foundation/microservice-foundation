@@ -1,0 +1,1092 @@
+2022-10-21 11:29:15 [Test worker] INFO  : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest], using SpringBootContextLoader
+2022-10-21 11:29:15 [Test worker] INFO  : Could not detect default resource locations for test class [com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-10-21 11:29:15 [Test worker] INFO  : Could not detect default configuration classes for test class [com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest]: ResourceControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-10-21 11:29:15 [Test worker] INFO  : Found @SpringBootConfiguration com.epam.training.microservicefoundation.resourceservice.ResourceServiceApplication for test class com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest
+2022-10-21 11:29:15 [Test worker] INFO  : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-10-21 11:29:15 [Test worker] INFO  : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@27b22f74, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@22fba58c, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7e8a46b7, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2fe88a09, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1917d90f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@66bfd864, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4aac85fa, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@21fff664, org.springframework.test.context.event.EventPublishingTestExecutionListener@6079cf5, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1e6308a9, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@30cecdca, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6edc4161, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5486887b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5226e402, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1440c311]
+2022-10-21 11:29:15 [Test worker] INFO  : Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2022-10-21 11:29:15 [Test worker] INFO  : Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2022-10-21 11:29:16 [Test worker] INFO  : Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+2022-10-21 11:29:16 [Test worker] INFO  : Docker host IP address is localhost
+2022-10-21 11:29:17 [Test worker] INFO  : Connected to docker: 
+  Server Version: 20.10.17
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 10215 MB
+2022-10-21 11:29:17 [Test worker] INFO  : Creating container for image: testcontainers/ryuk:0.3.4
+2022-10-21 11:29:17 [Test worker] INFO  : Failure when attempting to lookup auth config. Please ignore if you don't have images in an authenticated registry. Details: (dockerImageName: testcontainers/ryuk:0.3.4, configFile: /Users/Yusuf_Murodov/.docker/config.json. Falling back to docker-java default behaviour. Exception message: Could not execute [docker-credential-desktop, get]. Error=2, No such file or directory
+2022-10-21 11:29:17 [Test worker] INFO  : Container testcontainers/ryuk:0.3.4 is starting: 44eef15180f5af7bca5f14af1094aedc2eacbf8c532221b24a00b29f6b70d7c4
+2022-10-21 11:29:17 [Test worker] INFO  : Container testcontainers/ryuk:0.3.4 started in PT0.599015S
+2022-10-21 11:29:17 [Test worker] INFO  : Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2022-10-21 11:29:17 [Test worker] INFO  : Checking the system...
+2022-10-21 11:29:17 [Test worker] INFO  : ✔︎ Docker server version should be at least 1.6.0
+2022-10-21 11:29:17 [Test worker] INFO  : Creating container for image: postgres:12.9-alpine
+2022-10-21 11:29:17 [Test worker] INFO  : Container postgres:12.9-alpine is starting: 02b9a6b7f00d8e2b2b6968d5c963eea8127af095491df63234caec3c5f703c54
+2022-10-21 11:29:19 [Test worker] INFO  : Container postgres:12.9-alpine started in PT2.014733S
+2022-10-21 11:29:19 [Test worker] INFO  : HOSTNAME_EXTERNAL environment variable set to localhost (to match host-routable address for container)
+2022-10-21 11:29:19 [Test worker] INFO  : Creating container for image: localstack/localstack:1.0.0
+2022-10-21 11:29:20 [Test worker] INFO  : Container localstack/localstack:1.0.0 is starting: 5d75ce694f5c7f340f36ac04ccf2fee224a9bf725bd26cd3ea0c3d1e5c0aa67a
+2022-10-21 11:29:25 [Test worker] INFO  : Container localstack/localstack:1.0.0 started in PT5.986636S
+2022-10-21 11:29:29 [Test worker] INFO  : Starting ResourceControllerTest using Java 11.0.16 on EPUZTASW007D with PID 7260 (started by Yusuf_Murodov in /Users/Yusuf_Murodov/Local/epam/traning/microservice-foundation/resource-service)
+2022-10-21 11:29:29 [Test worker] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-10-21 11:29:33 [Test worker] INFO  : Started ResourceControllerTest in 4.573 seconds (JVM running for 19.096)
+2022-10-21 11:29:33 [Test worker] INFO  : HikariPool-1 - Starting...
+2022-10-21 11:29:33 [Test worker] INFO  : HikariPool-1 - Start completed.
+2022-10-21 11:29:34 [Test worker] INFO  : Initializing Spring TestDispatcherServlet ''
+2022-10-21 11:29:34 [Test worker] INFO  : Initializing Servlet ''
+2022-10-21 11:29:34 [Test worker] INFO  : Completed initialization in 0 ms
+2022-10-21 11:29:34 [Test worker] INFO  : Getting file by id '1'
+2022-10-21 11:29:34 [Test worker] INFO  : Finding song name by id '1'
+2022-10-21 11:29:34 [Test worker] INFO  : Getting song by name 'mess-code.mp3' from bucket 'song-resource'
+2022-10-21 11:29:34 [Test worker] ERROR : Resource not found with key 'mess-code.mp3' 
+reason: 
+software.amazon.awssdk.services.s3.model.NoSuchKeyException: The specified key does not exist. (Service: S3, Status Code: 404, Request ID: 7a62c49f-347e-4fc4-9331-6e8eEXAMPLE, Extended Request ID: MzRISOwyjmnupDA5CE49E7070BD997/JypPGXLh0OVFGcJaaO3KW/hRAqKOpIEEp)
+	at software.amazon.awssdk.core.internal.http.CombinedResponseHandler.handleErrorResponse(CombinedResponseHandler.java:125)
+	at software.amazon.awssdk.core.internal.http.CombinedResponseHandler.handleResponse(CombinedResponseHandler.java:82)
+	at software.amazon.awssdk.core.internal.http.CombinedResponseHandler.handle(CombinedResponseHandler.java:60)
+	at software.amazon.awssdk.core.internal.http.CombinedResponseHandler.handle(CombinedResponseHandler.java:41)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.HandleResponseStage.execute(HandleResponseStage.java:40)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.HandleResponseStage.execute(HandleResponseStage.java:30)
+	at software.amazon.awssdk.core.internal.http.pipeline.RequestPipelineBuilder$ComposingRequestPipelineStage.execute(RequestPipelineBuilder.java:206)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallAttemptTimeoutTrackingStage.execute(ApiCallAttemptTimeoutTrackingStage.java:73)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallAttemptTimeoutTrackingStage.execute(ApiCallAttemptTimeoutTrackingStage.java:42)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.TimeoutExceptionHandlingStage.execute(TimeoutExceptionHandlingStage.java:78)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.TimeoutExceptionHandlingStage.execute(TimeoutExceptionHandlingStage.java:40)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallAttemptMetricCollectionStage.execute(ApiCallAttemptMetricCollectionStage.java:50)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallAttemptMetricCollectionStage.execute(ApiCallAttemptMetricCollectionStage.java:36)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.RetryableStage.execute(RetryableStage.java:81)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.RetryableStage.execute(RetryableStage.java:36)
+	at software.amazon.awssdk.core.internal.http.pipeline.RequestPipelineBuilder$ComposingRequestPipelineStage.execute(RequestPipelineBuilder.java:206)
+	at software.amazon.awssdk.core.internal.http.StreamManagingStage.execute(StreamManagingStage.java:56)
+	at software.amazon.awssdk.core.internal.http.StreamManagingStage.execute(StreamManagingStage.java:36)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallTimeoutTrackingStage.executeWithTimer(ApiCallTimeoutTrackingStage.java:80)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallTimeoutTrackingStage.execute(ApiCallTimeoutTrackingStage.java:60)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallTimeoutTrackingStage.execute(ApiCallTimeoutTrackingStage.java:42)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallMetricCollectionStage.execute(ApiCallMetricCollectionStage.java:48)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallMetricCollectionStage.execute(ApiCallMetricCollectionStage.java:31)
+	at software.amazon.awssdk.core.internal.http.pipeline.RequestPipelineBuilder$ComposingRequestPipelineStage.execute(RequestPipelineBuilder.java:206)
+	at software.amazon.awssdk.core.internal.http.pipeline.RequestPipelineBuilder$ComposingRequestPipelineStage.execute(RequestPipelineBuilder.java:206)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ExecutionFailureExceptionReportingStage.execute(ExecutionFailureExceptionReportingStage.java:37)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ExecutionFailureExceptionReportingStage.execute(ExecutionFailureExceptionReportingStage.java:26)
+	at software.amazon.awssdk.core.internal.http.AmazonSyncHttpClient$RequestExecutionBuilderImpl.execute(AmazonSyncHttpClient.java:193)
+	at software.amazon.awssdk.core.internal.handler.BaseSyncClientHandler.invoke(BaseSyncClientHandler.java:103)
+	at software.amazon.awssdk.core.internal.handler.BaseSyncClientHandler.doExecute(BaseSyncClientHandler.java:171)
+	at software.amazon.awssdk.core.internal.handler.BaseSyncClientHandler.lambda$execute$0(BaseSyncClientHandler.java:68)
+	at software.amazon.awssdk.core.internal.handler.BaseSyncClientHandler.measureApiCallSuccess(BaseSyncClientHandler.java:179)
+	at software.amazon.awssdk.core.internal.handler.BaseSyncClientHandler.execute(BaseSyncClientHandler.java:62)
+	at software.amazon.awssdk.core.client.handler.SdkSyncClientHandler.execute(SdkSyncClientHandler.java:52)
+	at software.amazon.awssdk.awscore.client.handler.AwsSyncClientHandler.execute(AwsSyncClientHandler.java:63)
+	at software.amazon.awssdk.services.s3.DefaultS3Client.getObject(DefaultS3Client.java:4483)
+	at software.amazon.awssdk.services.s3.S3Client.getObject(S3Client.java:7889)
+	at com.epam.training.microservicefoundation.resourceservice.repository.CloudStorageRepository.getByName(CloudStorageRepository.java:65)
+	at com.epam.training.microservicefoundation.resourceservice.repository.CloudStorageRepository$$FastClassBySpringCGLIB$$4228d16d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.epam.training.microservicefoundation.resourceservice.repository.CloudStorageRepository$$EnhancerBySpringCGLIB$$7c051c6e.getByName(<generated>)
+	at com.epam.training.microservicefoundation.resourceservice.service.ResourceServiceImpl.getById(ResourceServiceImpl.java:75)
+	at com.epam.training.microservicefoundation.resourceservice.service.ResourceServiceImpl$$FastClassBySpringCGLIB$$beb70b27.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.epam.training.microservicefoundation.resourceservice.service.ResourceServiceImpl$$EnhancerBySpringCGLIB$$dfd9c972.getById(<generated>)
+	at com.epam.training.microservicefoundation.resourceservice.api.ResourceController.get(ResourceController.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:72)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:167)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:134)
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:201)
+	at com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest.shouldGetResource(ResourceControllerTest.java:122)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+2022-10-21 11:29:34 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown initiated...
+2022-10-21 11:29:34 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown completed.
+2022-10-21 11:30:02 [Test worker] INFO  : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest], using SpringBootContextLoader
+2022-10-21 11:30:02 [Test worker] INFO  : Could not detect default resource locations for test class [com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-10-21 11:30:02 [Test worker] INFO  : Could not detect default configuration classes for test class [com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest]: ResourceControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-10-21 11:30:02 [Test worker] INFO  : Found @SpringBootConfiguration com.epam.training.microservicefoundation.resourceservice.ResourceServiceApplication for test class com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest
+2022-10-21 11:30:02 [Test worker] INFO  : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-10-21 11:30:02 [Test worker] INFO  : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6df7988f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@27b22f74, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@22fba58c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7e8a46b7, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2fe88a09, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1917d90f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@66bfd864, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4aac85fa, org.springframework.test.context.event.EventPublishingTestExecutionListener@21fff664, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6079cf5, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1e6308a9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@30cecdca, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6edc4161, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5486887b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5226e402]
+2022-10-21 11:30:02 [Test worker] INFO  : Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2022-10-21 11:30:02 [Test worker] INFO  : Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2022-10-21 11:30:03 [Test worker] INFO  : Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+2022-10-21 11:30:03 [Test worker] INFO  : Docker host IP address is localhost
+2022-10-21 11:30:03 [Test worker] INFO  : Connected to docker: 
+  Server Version: 20.10.17
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 10215 MB
+2022-10-21 11:30:03 [Test worker] INFO  : Creating container for image: testcontainers/ryuk:0.3.4
+2022-10-21 11:30:03 [Test worker] INFO  : Failure when attempting to lookup auth config. Please ignore if you don't have images in an authenticated registry. Details: (dockerImageName: testcontainers/ryuk:0.3.4, configFile: /Users/Yusuf_Murodov/.docker/config.json. Falling back to docker-java default behaviour. Exception message: Could not execute [docker-credential-desktop, get]. Error=2, No such file or directory
+2022-10-21 11:30:03 [Test worker] INFO  : Container testcontainers/ryuk:0.3.4 is starting: b57daf507f5af597c2ea942c0a04b8c6787da8a45d668f632dc0bf584a4feba9
+2022-10-21 11:30:03 [Test worker] INFO  : Container testcontainers/ryuk:0.3.4 started in PT0.483233S
+2022-10-21 11:30:03 [Test worker] INFO  : Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2022-10-21 11:30:03 [Test worker] INFO  : Checking the system...
+2022-10-21 11:30:03 [Test worker] INFO  : ✔︎ Docker server version should be at least 1.6.0
+2022-10-21 11:30:03 [Test worker] INFO  : Creating container for image: postgres:12.9-alpine
+2022-10-21 11:30:03 [Test worker] INFO  : Container postgres:12.9-alpine is starting: e7d9a00a3c2fe133e6025a07e2eacc3c0f09ff2e012d41ea4a958a0ad245df16
+2022-10-21 11:30:05 [Test worker] INFO  : Container postgres:12.9-alpine started in PT1.509968S
+2022-10-21 11:30:05 [Test worker] INFO  : HOSTNAME_EXTERNAL environment variable set to localhost (to match host-routable address for container)
+2022-10-21 11:30:05 [Test worker] INFO  : Creating container for image: localstack/localstack:1.0.0
+2022-10-21 11:30:05 [Test worker] INFO  : Container localstack/localstack:1.0.0 is starting: 9cc2b61707081620c0b875e6f434d39064110d3fff5c8dffff1551da046692cc
+2022-10-21 11:30:09 [Test worker] INFO  : Container localstack/localstack:1.0.0 started in PT4.191404S
+2022-10-21 11:30:11 [Test worker] INFO  : Starting ResourceControllerTest using Java 11.0.16 on EPUZTASW007D with PID 7329 (started by Yusuf_Murodov in /Users/Yusuf_Murodov/Local/epam/traning/microservice-foundation/resource-service)
+2022-10-21 11:30:11 [Test worker] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-10-21 11:30:13 [Test worker] INFO  : Started ResourceControllerTest in 2.296 seconds (JVM running for 12.658)
+2022-10-21 11:30:14 [Test worker] INFO  : HikariPool-1 - Starting...
+2022-10-21 11:30:14 [Test worker] INFO  : HikariPool-1 - Start completed.
+2022-10-21 11:30:14 [Test worker] INFO  : Initializing Spring TestDispatcherServlet ''
+2022-10-21 11:30:14 [Test worker] INFO  : Initializing Servlet ''
+2022-10-21 11:30:14 [Test worker] INFO  : Completed initialization in 1 ms
+2022-10-21 11:30:14 [Test worker] INFO  : Getting file by id '1'
+2022-10-21 11:30:14 [Test worker] INFO  : Finding song name by id '1'
+2022-10-21 11:30:14 [Test worker] INFO  : Getting song by name 'mess-code.mp3' from bucket 'song-resource'
+2022-10-21 11:30:14 [Test worker] ERROR : Resource not found with key 'mess-code.mp3' 
+reason: 
+software.amazon.awssdk.services.s3.model.NoSuchKeyException: The specified key does not exist. (Service: S3, Status Code: 404, Request ID: 7a62c49f-347e-4fc4-9331-6e8eEXAMPLE, Extended Request ID: MzRISOwyjmnup9239299B0D74F5277/JypPGXLh0OVFGcJaaO3KW/hRAqKOpIEEp)
+	at software.amazon.awssdk.core.internal.http.CombinedResponseHandler.handleErrorResponse(CombinedResponseHandler.java:125)
+	at software.amazon.awssdk.core.internal.http.CombinedResponseHandler.handleResponse(CombinedResponseHandler.java:82)
+	at software.amazon.awssdk.core.internal.http.CombinedResponseHandler.handle(CombinedResponseHandler.java:60)
+	at software.amazon.awssdk.core.internal.http.CombinedResponseHandler.handle(CombinedResponseHandler.java:41)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.HandleResponseStage.execute(HandleResponseStage.java:40)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.HandleResponseStage.execute(HandleResponseStage.java:30)
+	at software.amazon.awssdk.core.internal.http.pipeline.RequestPipelineBuilder$ComposingRequestPipelineStage.execute(RequestPipelineBuilder.java:206)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallAttemptTimeoutTrackingStage.execute(ApiCallAttemptTimeoutTrackingStage.java:73)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallAttemptTimeoutTrackingStage.execute(ApiCallAttemptTimeoutTrackingStage.java:42)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.TimeoutExceptionHandlingStage.execute(TimeoutExceptionHandlingStage.java:78)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.TimeoutExceptionHandlingStage.execute(TimeoutExceptionHandlingStage.java:40)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallAttemptMetricCollectionStage.execute(ApiCallAttemptMetricCollectionStage.java:50)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallAttemptMetricCollectionStage.execute(ApiCallAttemptMetricCollectionStage.java:36)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.RetryableStage.execute(RetryableStage.java:81)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.RetryableStage.execute(RetryableStage.java:36)
+	at software.amazon.awssdk.core.internal.http.pipeline.RequestPipelineBuilder$ComposingRequestPipelineStage.execute(RequestPipelineBuilder.java:206)
+	at software.amazon.awssdk.core.internal.http.StreamManagingStage.execute(StreamManagingStage.java:56)
+	at software.amazon.awssdk.core.internal.http.StreamManagingStage.execute(StreamManagingStage.java:36)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallTimeoutTrackingStage.executeWithTimer(ApiCallTimeoutTrackingStage.java:80)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallTimeoutTrackingStage.execute(ApiCallTimeoutTrackingStage.java:60)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallTimeoutTrackingStage.execute(ApiCallTimeoutTrackingStage.java:42)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallMetricCollectionStage.execute(ApiCallMetricCollectionStage.java:48)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallMetricCollectionStage.execute(ApiCallMetricCollectionStage.java:31)
+	at software.amazon.awssdk.core.internal.http.pipeline.RequestPipelineBuilder$ComposingRequestPipelineStage.execute(RequestPipelineBuilder.java:206)
+	at software.amazon.awssdk.core.internal.http.pipeline.RequestPipelineBuilder$ComposingRequestPipelineStage.execute(RequestPipelineBuilder.java:206)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ExecutionFailureExceptionReportingStage.execute(ExecutionFailureExceptionReportingStage.java:37)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ExecutionFailureExceptionReportingStage.execute(ExecutionFailureExceptionReportingStage.java:26)
+	at software.amazon.awssdk.core.internal.http.AmazonSyncHttpClient$RequestExecutionBuilderImpl.execute(AmazonSyncHttpClient.java:193)
+	at software.amazon.awssdk.core.internal.handler.BaseSyncClientHandler.invoke(BaseSyncClientHandler.java:103)
+	at software.amazon.awssdk.core.internal.handler.BaseSyncClientHandler.doExecute(BaseSyncClientHandler.java:171)
+	at software.amazon.awssdk.core.internal.handler.BaseSyncClientHandler.lambda$execute$0(BaseSyncClientHandler.java:68)
+	at software.amazon.awssdk.core.internal.handler.BaseSyncClientHandler.measureApiCallSuccess(BaseSyncClientHandler.java:179)
+	at software.amazon.awssdk.core.internal.handler.BaseSyncClientHandler.execute(BaseSyncClientHandler.java:62)
+	at software.amazon.awssdk.core.client.handler.SdkSyncClientHandler.execute(SdkSyncClientHandler.java:52)
+	at software.amazon.awssdk.awscore.client.handler.AwsSyncClientHandler.execute(AwsSyncClientHandler.java:63)
+	at software.amazon.awssdk.services.s3.DefaultS3Client.getObject(DefaultS3Client.java:4483)
+	at software.amazon.awssdk.services.s3.S3Client.getObject(S3Client.java:7889)
+	at com.epam.training.microservicefoundation.resourceservice.repository.CloudStorageRepository.getByName(CloudStorageRepository.java:65)
+	at com.epam.training.microservicefoundation.resourceservice.repository.CloudStorageRepository$$FastClassBySpringCGLIB$$4228d16d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.epam.training.microservicefoundation.resourceservice.repository.CloudStorageRepository$$EnhancerBySpringCGLIB$$7c051c6e.getByName(<generated>)
+	at com.epam.training.microservicefoundation.resourceservice.service.ResourceServiceImpl.getById(ResourceServiceImpl.java:75)
+	at com.epam.training.microservicefoundation.resourceservice.service.ResourceServiceImpl$$FastClassBySpringCGLIB$$beb70b27.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.epam.training.microservicefoundation.resourceservice.service.ResourceServiceImpl$$EnhancerBySpringCGLIB$$dfd9c972.getById(<generated>)
+	at com.epam.training.microservicefoundation.resourceservice.api.ResourceController.get(ResourceController.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:72)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:167)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:134)
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:201)
+	at com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest.shouldGetResource(ResourceControllerTest.java:122)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+2022-10-21 11:30:15 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown initiated...
+2022-10-21 11:30:15 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown completed.
+2022-10-21 11:30:52 [Test worker] INFO  : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest], using SpringBootContextLoader
+2022-10-21 11:30:52 [Test worker] INFO  : Could not detect default resource locations for test class [com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-10-21 11:30:52 [Test worker] INFO  : Could not detect default configuration classes for test class [com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest]: ResourceControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-10-21 11:30:52 [Test worker] INFO  : Found @SpringBootConfiguration com.epam.training.microservicefoundation.resourceservice.ResourceServiceApplication for test class com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest
+2022-10-21 11:30:52 [Test worker] INFO  : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-10-21 11:30:52 [Test worker] INFO  : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6df7988f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@27b22f74, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@22fba58c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7e8a46b7, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2fe88a09, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1917d90f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@66bfd864, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4aac85fa, org.springframework.test.context.event.EventPublishingTestExecutionListener@21fff664, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6079cf5, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1e6308a9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@30cecdca, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6edc4161, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5486887b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5226e402]
+2022-10-21 11:30:52 [Test worker] INFO  : Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2022-10-21 11:30:52 [Test worker] INFO  : Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2022-10-21 11:30:53 [Test worker] INFO  : Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+2022-10-21 11:30:53 [Test worker] INFO  : Docker host IP address is localhost
+2022-10-21 11:30:53 [Test worker] INFO  : Connected to docker: 
+  Server Version: 20.10.17
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 10215 MB
+2022-10-21 11:30:53 [Test worker] INFO  : Creating container for image: testcontainers/ryuk:0.3.4
+2022-10-21 11:30:53 [Test worker] INFO  : Failure when attempting to lookup auth config. Please ignore if you don't have images in an authenticated registry. Details: (dockerImageName: testcontainers/ryuk:0.3.4, configFile: /Users/Yusuf_Murodov/.docker/config.json. Falling back to docker-java default behaviour. Exception message: Could not execute [docker-credential-desktop, get]. Error=2, No such file or directory
+2022-10-21 11:30:53 [Test worker] INFO  : Container testcontainers/ryuk:0.3.4 is starting: 7f4d6b9364d2feb2aab418b1bf48e7c082f5f0ab4d7b397c457e492ecf2ea7bf
+2022-10-21 11:30:54 [Test worker] INFO  : Container testcontainers/ryuk:0.3.4 started in PT0.45652S
+2022-10-21 11:30:54 [Test worker] INFO  : Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2022-10-21 11:30:54 [Test worker] INFO  : Checking the system...
+2022-10-21 11:30:54 [Test worker] INFO  : ✔︎ Docker server version should be at least 1.6.0
+2022-10-21 11:30:54 [Test worker] INFO  : Creating container for image: postgres:12.9-alpine
+2022-10-21 11:30:54 [Test worker] INFO  : Container postgres:12.9-alpine is starting: 6f6d2ce5d862d0b90e1e5d701b5b09e24fee5a184579bbaeae48070eb645ec6c
+2022-10-21 11:30:55 [Test worker] INFO  : Container postgres:12.9-alpine started in PT1.620482S
+2022-10-21 11:30:55 [Test worker] INFO  : HOSTNAME_EXTERNAL environment variable set to localhost (to match host-routable address for container)
+2022-10-21 11:30:55 [Test worker] INFO  : Creating container for image: localstack/localstack:1.0.0
+2022-10-21 11:30:56 [Test worker] INFO  : Container localstack/localstack:1.0.0 is starting: 04cf0f1a057b23c4611b0962f8c8984953b74e7dba92cff4da855f5695d5613b
+2022-10-21 11:30:59 [Test worker] INFO  : Container localstack/localstack:1.0.0 started in PT4.13749S
+2022-10-21 11:31:02 [Test worker] INFO  : Starting ResourceControllerTest using Java 11.0.16 on EPUZTASW007D with PID 7381 (started by Yusuf_Murodov in /Users/Yusuf_Murodov/Local/epam/traning/microservice-foundation/resource-service)
+2022-10-21 11:31:02 [Test worker] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-10-21 11:31:05 [Test worker] INFO  : Started ResourceControllerTest in 3.303 seconds (JVM running for 13.765)
+2022-10-21 11:31:05 [Test worker] INFO  : HikariPool-1 - Starting...
+2022-10-21 11:31:05 [Test worker] INFO  : HikariPool-1 - Start completed.
+2022-10-21 11:31:06 [Test worker] INFO  : Initializing Spring TestDispatcherServlet ''
+2022-10-21 11:31:06 [Test worker] INFO  : Initializing Servlet ''
+2022-10-21 11:31:06 [Test worker] INFO  : Completed initialization in 1 ms
+2022-10-21 11:31:06 [Test worker] INFO  : Getting file by id '1'
+2022-10-21 11:31:06 [Test worker] INFO  : Finding song name by id '1'
+2022-10-21 11:31:06 [Test worker] INFO  : Getting song by name 'mess-code.mp3' from bucket 'song-resource'
+2022-10-21 11:31:06 [Test worker] ERROR : Resource not found with key 'mess-code.mp3' 
+reason: 
+software.amazon.awssdk.services.s3.model.NoSuchKeyException: The specified key does not exist. (Service: S3, Status Code: 404, Request ID: 7a62c49f-347e-4fc4-9331-6e8eEXAMPLE, Extended Request ID: MzRISOwyjmnupB4F406FA805910F07/JypPGXLh0OVFGcJaaO3KW/hRAqKOpIEEp)
+	at software.amazon.awssdk.core.internal.http.CombinedResponseHandler.handleErrorResponse(CombinedResponseHandler.java:125)
+	at software.amazon.awssdk.core.internal.http.CombinedResponseHandler.handleResponse(CombinedResponseHandler.java:82)
+	at software.amazon.awssdk.core.internal.http.CombinedResponseHandler.handle(CombinedResponseHandler.java:60)
+	at software.amazon.awssdk.core.internal.http.CombinedResponseHandler.handle(CombinedResponseHandler.java:41)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.HandleResponseStage.execute(HandleResponseStage.java:40)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.HandleResponseStage.execute(HandleResponseStage.java:30)
+	at software.amazon.awssdk.core.internal.http.pipeline.RequestPipelineBuilder$ComposingRequestPipelineStage.execute(RequestPipelineBuilder.java:206)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallAttemptTimeoutTrackingStage.execute(ApiCallAttemptTimeoutTrackingStage.java:73)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallAttemptTimeoutTrackingStage.execute(ApiCallAttemptTimeoutTrackingStage.java:42)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.TimeoutExceptionHandlingStage.execute(TimeoutExceptionHandlingStage.java:78)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.TimeoutExceptionHandlingStage.execute(TimeoutExceptionHandlingStage.java:40)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallAttemptMetricCollectionStage.execute(ApiCallAttemptMetricCollectionStage.java:50)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallAttemptMetricCollectionStage.execute(ApiCallAttemptMetricCollectionStage.java:36)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.RetryableStage.execute(RetryableStage.java:81)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.RetryableStage.execute(RetryableStage.java:36)
+	at software.amazon.awssdk.core.internal.http.pipeline.RequestPipelineBuilder$ComposingRequestPipelineStage.execute(RequestPipelineBuilder.java:206)
+	at software.amazon.awssdk.core.internal.http.StreamManagingStage.execute(StreamManagingStage.java:56)
+	at software.amazon.awssdk.core.internal.http.StreamManagingStage.execute(StreamManagingStage.java:36)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallTimeoutTrackingStage.executeWithTimer(ApiCallTimeoutTrackingStage.java:80)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallTimeoutTrackingStage.execute(ApiCallTimeoutTrackingStage.java:60)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallTimeoutTrackingStage.execute(ApiCallTimeoutTrackingStage.java:42)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallMetricCollectionStage.execute(ApiCallMetricCollectionStage.java:48)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallMetricCollectionStage.execute(ApiCallMetricCollectionStage.java:31)
+	at software.amazon.awssdk.core.internal.http.pipeline.RequestPipelineBuilder$ComposingRequestPipelineStage.execute(RequestPipelineBuilder.java:206)
+	at software.amazon.awssdk.core.internal.http.pipeline.RequestPipelineBuilder$ComposingRequestPipelineStage.execute(RequestPipelineBuilder.java:206)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ExecutionFailureExceptionReportingStage.execute(ExecutionFailureExceptionReportingStage.java:37)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ExecutionFailureExceptionReportingStage.execute(ExecutionFailureExceptionReportingStage.java:26)
+	at software.amazon.awssdk.core.internal.http.AmazonSyncHttpClient$RequestExecutionBuilderImpl.execute(AmazonSyncHttpClient.java:193)
+	at software.amazon.awssdk.core.internal.handler.BaseSyncClientHandler.invoke(BaseSyncClientHandler.java:103)
+	at software.amazon.awssdk.core.internal.handler.BaseSyncClientHandler.doExecute(BaseSyncClientHandler.java:171)
+	at software.amazon.awssdk.core.internal.handler.BaseSyncClientHandler.lambda$execute$0(BaseSyncClientHandler.java:68)
+	at software.amazon.awssdk.core.internal.handler.BaseSyncClientHandler.measureApiCallSuccess(BaseSyncClientHandler.java:179)
+	at software.amazon.awssdk.core.internal.handler.BaseSyncClientHandler.execute(BaseSyncClientHandler.java:62)
+	at software.amazon.awssdk.core.client.handler.SdkSyncClientHandler.execute(SdkSyncClientHandler.java:52)
+	at software.amazon.awssdk.awscore.client.handler.AwsSyncClientHandler.execute(AwsSyncClientHandler.java:63)
+	at software.amazon.awssdk.services.s3.DefaultS3Client.getObject(DefaultS3Client.java:4483)
+	at software.amazon.awssdk.services.s3.S3Client.getObject(S3Client.java:7889)
+	at com.epam.training.microservicefoundation.resourceservice.repository.CloudStorageRepository.getByName(CloudStorageRepository.java:65)
+	at com.epam.training.microservicefoundation.resourceservice.repository.CloudStorageRepository$$FastClassBySpringCGLIB$$4228d16d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.epam.training.microservicefoundation.resourceservice.repository.CloudStorageRepository$$EnhancerBySpringCGLIB$$16f97a36.getByName(<generated>)
+	at com.epam.training.microservicefoundation.resourceservice.service.ResourceServiceImpl.getById(ResourceServiceImpl.java:75)
+	at com.epam.training.microservicefoundation.resourceservice.service.ResourceServiceImpl$$FastClassBySpringCGLIB$$beb70b27.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.epam.training.microservicefoundation.resourceservice.service.ResourceServiceImpl$$EnhancerBySpringCGLIB$$fbedfab5.getById(<generated>)
+	at com.epam.training.microservicefoundation.resourceservice.api.ResourceController.get(ResourceController.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:72)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:167)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:134)
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:201)
+	at com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest.shouldGetResource(ResourceControllerTest.java:122)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+2022-10-21 11:31:06 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown initiated...
+2022-10-21 11:31:06 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown completed.
+2022-10-21 11:31:24 [Test worker] INFO  : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest], using SpringBootContextLoader
+2022-10-21 11:31:24 [Test worker] INFO  : Could not detect default resource locations for test class [com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-10-21 11:31:24 [Test worker] INFO  : Could not detect default configuration classes for test class [com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest]: ResourceControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-10-21 11:31:24 [Test worker] INFO  : Found @SpringBootConfiguration com.epam.training.microservicefoundation.resourceservice.ResourceServiceApplication for test class com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest
+2022-10-21 11:31:24 [Test worker] INFO  : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-10-21 11:31:24 [Test worker] INFO  : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6df7988f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@27b22f74, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@22fba58c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7e8a46b7, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2fe88a09, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1917d90f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@66bfd864, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4aac85fa, org.springframework.test.context.event.EventPublishingTestExecutionListener@21fff664, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6079cf5, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1e6308a9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@30cecdca, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6edc4161, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5486887b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5226e402]
+2022-10-21 11:31:24 [Test worker] INFO  : Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2022-10-21 11:31:24 [Test worker] INFO  : Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2022-10-21 11:31:25 [Test worker] INFO  : Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+2022-10-21 11:31:25 [Test worker] INFO  : Docker host IP address is localhost
+2022-10-21 11:31:25 [Test worker] INFO  : Connected to docker: 
+  Server Version: 20.10.17
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 10215 MB
+2022-10-21 11:31:25 [Test worker] INFO  : Creating container for image: testcontainers/ryuk:0.3.4
+2022-10-21 11:31:25 [Test worker] INFO  : Failure when attempting to lookup auth config. Please ignore if you don't have images in an authenticated registry. Details: (dockerImageName: testcontainers/ryuk:0.3.4, configFile: /Users/Yusuf_Murodov/.docker/config.json. Falling back to docker-java default behaviour. Exception message: Could not execute [docker-credential-desktop, get]. Error=2, No such file or directory
+2022-10-21 11:31:25 [Test worker] INFO  : Container testcontainers/ryuk:0.3.4 is starting: a42a9d2c456f7dd221db16d2744885235eedcb5b5ff6b6edc1718bd2b2ef6436
+2022-10-21 11:31:25 [Test worker] INFO  : Container testcontainers/ryuk:0.3.4 started in PT0.542241S
+2022-10-21 11:31:25 [Test worker] INFO  : Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2022-10-21 11:31:25 [Test worker] INFO  : Checking the system...
+2022-10-21 11:31:25 [Test worker] INFO  : ✔︎ Docker server version should be at least 1.6.0
+2022-10-21 11:31:25 [Test worker] INFO  : Creating container for image: postgres:12.9-alpine
+2022-10-21 11:31:26 [Test worker] INFO  : Container postgres:12.9-alpine is starting: 3f866040ea64af41fb5e48f2c0bccfdeef696ec8009860abcb7e1ac7ce476bfe
+2022-10-21 11:31:27 [Test worker] INFO  : Container postgres:12.9-alpine started in PT1.511199S
+2022-10-21 11:31:27 [Test worker] INFO  : HOSTNAME_EXTERNAL environment variable set to localhost (to match host-routable address for container)
+2022-10-21 11:31:27 [Test worker] INFO  : Creating container for image: localstack/localstack:1.0.0
+2022-10-21 11:31:28 [Test worker] INFO  : Container localstack/localstack:1.0.0 is starting: 0110836d4d0878a56fa2876a069fd3588bdfee8de00267b6db1a3a8a6f823f4c
+2022-10-21 11:31:31 [Test worker] INFO  : Container localstack/localstack:1.0.0 started in PT4.131813S
+2022-10-21 11:31:34 [Test worker] INFO  : Starting ResourceControllerTest using Java 11.0.16 on EPUZTASW007D with PID 7575 (started by Yusuf_Murodov in /Users/Yusuf_Murodov/Local/epam/traning/microservice-foundation/resource-service)
+2022-10-21 11:31:34 [Test worker] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-10-21 11:31:36 [Test worker] INFO  : Started ResourceControllerTest in 2.651 seconds (JVM running for 13.132)
+2022-10-21 11:31:36 [Test worker] INFO  : HikariPool-1 - Starting...
+2022-10-21 11:31:36 [Test worker] INFO  : HikariPool-1 - Start completed.
+2022-10-21 11:31:37 [Test worker] INFO  : Initializing Spring TestDispatcherServlet ''
+2022-10-21 11:31:37 [Test worker] INFO  : Initializing Servlet ''
+2022-10-21 11:31:37 [Test worker] INFO  : Completed initialization in 2 ms
+2022-10-21 11:31:37 [Test worker] INFO  : Getting file by id '1'
+2022-10-21 11:31:37 [Test worker] INFO  : Finding song name by id '1'
+2022-10-21 11:31:37 [Test worker] INFO  : Getting song by name 'mess-code.mp3' from bucket 'song-resource'
+2022-10-21 11:31:37 [Test worker] ERROR : Resource not found with key 'mess-code.mp3' 
+reason: 
+software.amazon.awssdk.services.s3.model.NoSuchKeyException: The specified key does not exist. (Service: S3, Status Code: 404, Request ID: 7a62c49f-347e-4fc4-9331-6e8eEXAMPLE, Extended Request ID: MzRISOwyjmnup84990602167006FF7/JypPGXLh0OVFGcJaaO3KW/hRAqKOpIEEp)
+	at software.amazon.awssdk.core.internal.http.CombinedResponseHandler.handleErrorResponse(CombinedResponseHandler.java:125)
+	at software.amazon.awssdk.core.internal.http.CombinedResponseHandler.handleResponse(CombinedResponseHandler.java:82)
+	at software.amazon.awssdk.core.internal.http.CombinedResponseHandler.handle(CombinedResponseHandler.java:60)
+	at software.amazon.awssdk.core.internal.http.CombinedResponseHandler.handle(CombinedResponseHandler.java:41)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.HandleResponseStage.execute(HandleResponseStage.java:40)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.HandleResponseStage.execute(HandleResponseStage.java:30)
+	at software.amazon.awssdk.core.internal.http.pipeline.RequestPipelineBuilder$ComposingRequestPipelineStage.execute(RequestPipelineBuilder.java:206)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallAttemptTimeoutTrackingStage.execute(ApiCallAttemptTimeoutTrackingStage.java:73)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallAttemptTimeoutTrackingStage.execute(ApiCallAttemptTimeoutTrackingStage.java:42)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.TimeoutExceptionHandlingStage.execute(TimeoutExceptionHandlingStage.java:78)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.TimeoutExceptionHandlingStage.execute(TimeoutExceptionHandlingStage.java:40)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallAttemptMetricCollectionStage.execute(ApiCallAttemptMetricCollectionStage.java:50)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallAttemptMetricCollectionStage.execute(ApiCallAttemptMetricCollectionStage.java:36)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.RetryableStage.execute(RetryableStage.java:81)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.RetryableStage.execute(RetryableStage.java:36)
+	at software.amazon.awssdk.core.internal.http.pipeline.RequestPipelineBuilder$ComposingRequestPipelineStage.execute(RequestPipelineBuilder.java:206)
+	at software.amazon.awssdk.core.internal.http.StreamManagingStage.execute(StreamManagingStage.java:56)
+	at software.amazon.awssdk.core.internal.http.StreamManagingStage.execute(StreamManagingStage.java:36)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallTimeoutTrackingStage.executeWithTimer(ApiCallTimeoutTrackingStage.java:80)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallTimeoutTrackingStage.execute(ApiCallTimeoutTrackingStage.java:60)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallTimeoutTrackingStage.execute(ApiCallTimeoutTrackingStage.java:42)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallMetricCollectionStage.execute(ApiCallMetricCollectionStage.java:48)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallMetricCollectionStage.execute(ApiCallMetricCollectionStage.java:31)
+	at software.amazon.awssdk.core.internal.http.pipeline.RequestPipelineBuilder$ComposingRequestPipelineStage.execute(RequestPipelineBuilder.java:206)
+	at software.amazon.awssdk.core.internal.http.pipeline.RequestPipelineBuilder$ComposingRequestPipelineStage.execute(RequestPipelineBuilder.java:206)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ExecutionFailureExceptionReportingStage.execute(ExecutionFailureExceptionReportingStage.java:37)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ExecutionFailureExceptionReportingStage.execute(ExecutionFailureExceptionReportingStage.java:26)
+	at software.amazon.awssdk.core.internal.http.AmazonSyncHttpClient$RequestExecutionBuilderImpl.execute(AmazonSyncHttpClient.java:193)
+	at software.amazon.awssdk.core.internal.handler.BaseSyncClientHandler.invoke(BaseSyncClientHandler.java:103)
+	at software.amazon.awssdk.core.internal.handler.BaseSyncClientHandler.doExecute(BaseSyncClientHandler.java:171)
+	at software.amazon.awssdk.core.internal.handler.BaseSyncClientHandler.lambda$execute$0(BaseSyncClientHandler.java:68)
+	at software.amazon.awssdk.core.internal.handler.BaseSyncClientHandler.measureApiCallSuccess(BaseSyncClientHandler.java:179)
+	at software.amazon.awssdk.core.internal.handler.BaseSyncClientHandler.execute(BaseSyncClientHandler.java:62)
+	at software.amazon.awssdk.core.client.handler.SdkSyncClientHandler.execute(SdkSyncClientHandler.java:52)
+	at software.amazon.awssdk.awscore.client.handler.AwsSyncClientHandler.execute(AwsSyncClientHandler.java:63)
+	at software.amazon.awssdk.services.s3.DefaultS3Client.getObject(DefaultS3Client.java:4483)
+	at software.amazon.awssdk.services.s3.S3Client.getObject(S3Client.java:7889)
+	at com.epam.training.microservicefoundation.resourceservice.repository.CloudStorageRepository.getByName(CloudStorageRepository.java:65)
+	at com.epam.training.microservicefoundation.resourceservice.repository.CloudStorageRepository$$FastClassBySpringCGLIB$$4228d16d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.epam.training.microservicefoundation.resourceservice.repository.CloudStorageRepository$$EnhancerBySpringCGLIB$$7c051c6e.getByName(<generated>)
+	at com.epam.training.microservicefoundation.resourceservice.service.ResourceServiceImpl.getById(ResourceServiceImpl.java:75)
+	at com.epam.training.microservicefoundation.resourceservice.service.ResourceServiceImpl$$FastClassBySpringCGLIB$$beb70b27.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.epam.training.microservicefoundation.resourceservice.service.ResourceServiceImpl$$EnhancerBySpringCGLIB$$dfd9c972.getById(<generated>)
+	at com.epam.training.microservicefoundation.resourceservice.api.ResourceController.get(ResourceController.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:72)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:167)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:134)
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:201)
+	at com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest.shouldGetResource(ResourceControllerTest.java:122)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+2022-10-21 11:31:37 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown initiated...
+2022-10-21 11:31:37 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown completed.
+2022-10-21 11:46:10 [Test worker] INFO  : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest], using SpringBootContextLoader
+2022-10-21 11:46:10 [Test worker] INFO  : Could not detect default resource locations for test class [com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-10-21 11:46:10 [Test worker] INFO  : Could not detect default configuration classes for test class [com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest]: ResourceControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-10-21 11:46:11 [Test worker] INFO  : Found @SpringBootConfiguration com.epam.training.microservicefoundation.resourceservice.ResourceServiceApplication for test class com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest
+2022-10-21 11:46:11 [Test worker] INFO  : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-10-21 11:46:11 [Test worker] INFO  : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6df7988f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@27b22f74, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@22fba58c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7e8a46b7, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2fe88a09, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1917d90f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@66bfd864, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4aac85fa, org.springframework.test.context.event.EventPublishingTestExecutionListener@21fff664, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6079cf5, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1e6308a9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@30cecdca, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6edc4161, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5486887b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5226e402]
+2022-10-21 11:46:11 [Test worker] INFO  : Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2022-10-21 11:46:11 [Test worker] INFO  : Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2022-10-21 11:46:12 [Test worker] INFO  : Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+2022-10-21 11:46:12 [Test worker] INFO  : Docker host IP address is localhost
+2022-10-21 11:46:12 [Test worker] INFO  : Connected to docker: 
+  Server Version: 20.10.17
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 10215 MB
+2022-10-21 11:46:12 [Test worker] INFO  : Creating container for image: testcontainers/ryuk:0.3.4
+2022-10-21 11:46:12 [Test worker] INFO  : Failure when attempting to lookup auth config. Please ignore if you don't have images in an authenticated registry. Details: (dockerImageName: testcontainers/ryuk:0.3.4, configFile: /Users/Yusuf_Murodov/.docker/config.json. Falling back to docker-java default behaviour. Exception message: Could not execute [docker-credential-desktop, get]. Error=2, No such file or directory
+2022-10-21 11:46:12 [Test worker] INFO  : Container testcontainers/ryuk:0.3.4 is starting: a6d1a0e58cc2643e4b9b7f60f85d06e666a41ad2489c7b5d5ca988776b7c15c0
+2022-10-21 11:46:12 [Test worker] INFO  : Container testcontainers/ryuk:0.3.4 started in PT0.496262S
+2022-10-21 11:46:12 [Test worker] INFO  : Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2022-10-21 11:46:12 [Test worker] INFO  : Checking the system...
+2022-10-21 11:46:12 [Test worker] INFO  : ✔︎ Docker server version should be at least 1.6.0
+2022-10-21 11:46:12 [Test worker] INFO  : Creating container for image: postgres:12.9-alpine
+2022-10-21 11:46:12 [Test worker] INFO  : Container postgres:12.9-alpine is starting: 01e042b35b8f6ef217c204476910d1932811e8146094f68fd4b569eb9ca35d69
+2022-10-21 11:46:14 [Test worker] INFO  : Container postgres:12.9-alpine started in PT1.507425S
+2022-10-21 11:46:14 [Test worker] INFO  : HOSTNAME_EXTERNAL environment variable set to localhost (to match host-routable address for container)
+2022-10-21 11:46:14 [Test worker] INFO  : Creating container for image: localstack/localstack:1.0.0
+2022-10-21 11:46:15 [Test worker] INFO  : Container localstack/localstack:1.0.0 is starting: ccf31a0ae72f83a038ff3767eae1f1f3c2cb765407ed02e1fb722d8c4d69f600
+2022-10-21 11:46:19 [Test worker] INFO  : Container localstack/localstack:1.0.0 started in PT4.773694S
+2022-10-21 11:46:21 [Test worker] INFO  : Starting ResourceControllerTest using Java 11.0.16 on EPUZTASW007D with PID 11066 (started by Yusuf_Murodov in /Users/Yusuf_Murodov/Local/epam/traning/microservice-foundation/resource-service)
+2022-10-21 11:46:21 [Test worker] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-10-21 11:46:24 [Test worker] INFO  : Started ResourceControllerTest in 3.283 seconds (JVM running for 14.332)
+2022-10-21 11:46:24 [Test worker] INFO  : HikariPool-1 - Starting...
+2022-10-21 11:46:24 [Test worker] INFO  : HikariPool-1 - Start completed.
+2022-10-21 11:46:24 [Test worker] INFO  : Initializing Spring TestDispatcherServlet ''
+2022-10-21 11:46:24 [Test worker] INFO  : Initializing Servlet ''
+2022-10-21 11:46:24 [Test worker] INFO  : Completed initialization in 1 ms
+2022-10-21 11:46:25 [Test worker] INFO  : Saving multipart file 'multipartFile'
+2022-10-21 11:46:25 [Test worker] INFO  : Saving file 'mpthreetest2.mp3'
+2022-10-21 11:46:25 [Test worker] INFO  : Validating a multipart song-resource file
+2022-10-21 11:46:25 [Test worker] INFO  : Converting multipart file 'multipartFile' to file
+2022-10-21 11:46:25 [Test worker] INFO  : Uploading file 'mpthreetest2.mp3' to bucket 'com.epam.training.microservicefoundation.resourceservice.configuration.AwsS3Configuration$$EnhancerBySpringCGLIB$$14e099c4@641ab175'
+2022-10-21 11:46:25 [Test worker] INFO  : Saving song resource: SongResource{id=0, path='http://127.0.0.1:52628/song-resource/mpthreetest2.mp3', name='mpthreetest2.mp3', createdDate=2022-10-21T11:46:25.246142, lastModifiedDate=null}
+2022-10-21 11:46:25 [Test worker] INFO  : Finding song resource by id 6
+2022-10-21 11:46:25 [Test worker] INFO  : Getting file by id '7'
+2022-10-21 11:46:25 [Test worker] INFO  : Finding song name by id '7'
+2022-10-21 11:46:25 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown initiated...
+2022-10-21 11:46:25 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown completed.
+2022-10-21 11:47:58 [Test worker] INFO  : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest], using SpringBootContextLoader
+2022-10-21 11:47:58 [Test worker] INFO  : Could not detect default resource locations for test class [com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-10-21 11:47:58 [Test worker] INFO  : Could not detect default configuration classes for test class [com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest]: ResourceControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-10-21 11:47:58 [Test worker] INFO  : Found @SpringBootConfiguration com.epam.training.microservicefoundation.resourceservice.ResourceServiceApplication for test class com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest
+2022-10-21 11:47:59 [Test worker] INFO  : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-10-21 11:47:59 [Test worker] INFO  : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6df7988f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@27b22f74, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@22fba58c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7e8a46b7, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2fe88a09, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1917d90f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@66bfd864, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4aac85fa, org.springframework.test.context.event.EventPublishingTestExecutionListener@21fff664, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6079cf5, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1e6308a9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@30cecdca, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6edc4161, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5486887b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5226e402]
+2022-10-21 11:47:59 [Test worker] INFO  : Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2022-10-21 11:47:59 [Test worker] INFO  : Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2022-10-21 11:48:00 [Test worker] INFO  : Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+2022-10-21 11:48:00 [Test worker] INFO  : Docker host IP address is localhost
+2022-10-21 11:48:00 [Test worker] INFO  : Connected to docker: 
+  Server Version: 20.10.17
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 10215 MB
+2022-10-21 11:48:00 [Test worker] INFO  : Creating container for image: testcontainers/ryuk:0.3.4
+2022-10-21 11:48:00 [Test worker] INFO  : Failure when attempting to lookup auth config. Please ignore if you don't have images in an authenticated registry. Details: (dockerImageName: testcontainers/ryuk:0.3.4, configFile: /Users/Yusuf_Murodov/.docker/config.json. Falling back to docker-java default behaviour. Exception message: Could not execute [docker-credential-desktop, get]. Error=2, No such file or directory
+2022-10-21 11:48:00 [Test worker] INFO  : Container testcontainers/ryuk:0.3.4 is starting: f8d015f9f446b726f5993bbe0704009ee94cd619c8986db3f092cb839084e8f9
+2022-10-21 11:48:00 [Test worker] INFO  : Container testcontainers/ryuk:0.3.4 started in PT0.490256S
+2022-10-21 11:48:00 [Test worker] INFO  : Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2022-10-21 11:48:00 [Test worker] INFO  : Checking the system...
+2022-10-21 11:48:00 [Test worker] INFO  : ✔︎ Docker server version should be at least 1.6.0
+2022-10-21 11:48:00 [Test worker] INFO  : Creating container for image: postgres:12.9-alpine
+2022-10-21 11:48:00 [Test worker] INFO  : Container postgres:12.9-alpine is starting: 3a126e97c28beca743d963b1dd2632921cee41d7d9efdd9103f36fa3f4aea965
+2022-10-21 11:48:02 [Test worker] INFO  : Container postgres:12.9-alpine started in PT1.501513S
+2022-10-21 11:48:02 [Test worker] INFO  : HOSTNAME_EXTERNAL environment variable set to localhost (to match host-routable address for container)
+2022-10-21 11:48:02 [Test worker] INFO  : Creating container for image: localstack/localstack:1.0.0
+2022-10-21 11:48:02 [Test worker] INFO  : Container localstack/localstack:1.0.0 is starting: 1207d98d2c847c59db63c3da650da01113f05f3f887e2d14e9d7db7afb518727
+2022-10-21 11:48:06 [Test worker] INFO  : Container localstack/localstack:1.0.0 started in PT4.186752S
+2022-10-21 11:48:08 [Test worker] INFO  : Starting ResourceControllerTest using Java 11.0.16 on EPUZTASW007D with PID 11180 (started by Yusuf_Murodov in /Users/Yusuf_Murodov/Local/epam/traning/microservice-foundation/resource-service)
+2022-10-21 11:48:08 [Test worker] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-10-21 11:48:10 [Test worker] INFO  : Started ResourceControllerTest in 2.692 seconds (JVM running for 12.788)
+2022-10-21 11:48:10 [Test worker] INFO  : HikariPool-1 - Starting...
+2022-10-21 11:48:10 [Test worker] INFO  : HikariPool-1 - Start completed.
+2022-10-21 11:48:11 [Test worker] INFO  : Initializing Spring TestDispatcherServlet ''
+2022-10-21 11:48:11 [Test worker] INFO  : Initializing Servlet ''
+2022-10-21 11:48:11 [Test worker] INFO  : Completed initialization in 1 ms
+2022-10-21 11:48:11 [Test worker] INFO  : Saving multipart file 'multipartFile'
+2022-10-21 11:48:11 [Test worker] INFO  : Saving file 'mpthreetest2.mp3'
+2022-10-21 11:48:11 [Test worker] INFO  : Validating a multipart song-resource file
+2022-10-21 11:48:11 [Test worker] INFO  : Converting multipart file 'multipartFile' to file
+2022-10-21 11:48:11 [Test worker] INFO  : Uploading file 'mpthreetest2.mp3' to bucket 'com.epam.training.microservicefoundation.resourceservice.configuration.AwsS3Configuration$$EnhancerBySpringCGLIB$$14e099c4@6905d030'
+2022-10-21 11:48:11 [Test worker] INFO  : Saving song resource: SongResource{id=0, path='http://127.0.0.1:52657/song-resource/mpthreetest2.mp3', name='mpthreetest2.mp3', createdDate=2022-10-21T11:48:11.583316, lastModifiedDate=null}
+2022-10-21 11:48:11 [Test worker] INFO  : Finding song resource by id 6
+2022-10-21 11:48:11 [Test worker] INFO  : Getting file by id '6'
+2022-10-21 11:48:11 [Test worker] INFO  : Finding song name by id '6'
+2022-10-21 11:48:11 [Test worker] INFO  : Getting song by name 'mpthreetest2.mp3' from bucket 'song-resource'
+2022-10-21 11:48:11 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown initiated...
+2022-10-21 11:48:11 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown completed.
+2022-10-21 11:57:55 [Test worker] INFO  : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest], using SpringBootContextLoader
+2022-10-21 11:57:55 [Test worker] INFO  : Could not detect default resource locations for test class [com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-10-21 11:57:55 [Test worker] INFO  : Could not detect default configuration classes for test class [com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest]: ResourceControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-10-21 11:57:55 [Test worker] INFO  : Found @SpringBootConfiguration com.epam.training.microservicefoundation.resourceservice.ResourceServiceApplication for test class com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest
+2022-10-21 11:57:55 [Test worker] INFO  : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-10-21 11:57:55 [Test worker] INFO  : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1917d90f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@66bfd864, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4aac85fa, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@21fff664, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6079cf5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1e6308a9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@30cecdca, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6edc4161, org.springframework.test.context.event.EventPublishingTestExecutionListener@5486887b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5226e402, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1440c311, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@189b5fb1, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@783ec989, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@1ddd3478, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@f973499]
+2022-10-21 11:57:55 [Test worker] INFO  : Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2022-10-21 11:57:55 [Test worker] INFO  : Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2022-10-21 11:57:56 [Test worker] INFO  : Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+2022-10-21 11:57:56 [Test worker] INFO  : Docker host IP address is localhost
+2022-10-21 11:57:56 [Test worker] INFO  : Connected to docker: 
+  Server Version: 20.10.17
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 10215 MB
+2022-10-21 11:57:56 [Test worker] INFO  : Creating container for image: testcontainers/ryuk:0.3.4
+2022-10-21 11:57:56 [Test worker] INFO  : Failure when attempting to lookup auth config. Please ignore if you don't have images in an authenticated registry. Details: (dockerImageName: testcontainers/ryuk:0.3.4, configFile: /Users/Yusuf_Murodov/.docker/config.json. Falling back to docker-java default behaviour. Exception message: Could not execute [docker-credential-desktop, get]. Error=2, No such file or directory
+2022-10-21 11:57:56 [Test worker] INFO  : Container testcontainers/ryuk:0.3.4 is starting: 1bb35c7c375f4d2b8fb9e1d7059c190b52e4d4a91c9754e9f2bb9f5f883edcc7
+2022-10-21 11:57:57 [Test worker] INFO  : Container testcontainers/ryuk:0.3.4 started in PT0.531339S
+2022-10-21 11:57:57 [Test worker] INFO  : Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2022-10-21 11:57:57 [Test worker] INFO  : Checking the system...
+2022-10-21 11:57:57 [Test worker] INFO  : ✔︎ Docker server version should be at least 1.6.0
+2022-10-21 11:57:57 [Test worker] INFO  : Creating container for image: postgres:12.9-alpine
+2022-10-21 11:57:57 [Test worker] INFO  : Container postgres:12.9-alpine is starting: 51173fad60143fec60bef2451f374a8c6b2c3ddcb24e7a50cbfda189b738b849
+2022-10-21 11:57:58 [Test worker] INFO  : Container postgres:12.9-alpine started in PT1.508113S
+2022-10-21 11:57:58 [Test worker] INFO  : HOSTNAME_EXTERNAL environment variable set to localhost (to match host-routable address for container)
+2022-10-21 11:57:58 [Test worker] INFO  : Creating container for image: localstack/localstack:1.0.0
+2022-10-21 11:57:59 [Test worker] INFO  : Container localstack/localstack:1.0.0 is starting: 833c6187549a9f557c254f53d3eff5cceeaec7e7cf849f81b7455d833f10e2ad
+2022-10-21 11:58:02 [Test worker] INFO  : Container localstack/localstack:1.0.0 started in PT4.183222S
+2022-10-21 11:58:05 [Test worker] INFO  : Starting ResourceControllerTest using Java 11.0.16 on EPUZTASW007D with PID 11908 (started by Yusuf_Murodov in /Users/Yusuf_Murodov/Local/epam/traning/microservice-foundation/resource-service)
+2022-10-21 11:58:05 [Test worker] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-10-21 11:58:07 [Test worker] INFO  : Started ResourceControllerTest in 3.366 seconds (JVM running for 13.761)
+2022-10-21 11:58:07 [Test worker] INFO  : HikariPool-1 - Starting...
+2022-10-21 11:58:08 [Test worker] INFO  : HikariPool-1 - Start completed.
+2022-10-21 11:58:08 [Test worker] INFO  : Initializing Spring TestDispatcherServlet ''
+2022-10-21 11:58:08 [Test worker] INFO  : Initializing Servlet ''
+2022-10-21 11:58:08 [Test worker] INFO  : Completed initialization in 0 ms
+2022-10-21 11:58:08 [Test worker] INFO  : Saving multipart file 'multipartFile'
+2022-10-21 11:58:08 [Test worker] INFO  : Saving file 'mpthreetest2.mp3'
+2022-10-21 11:58:08 [Test worker] INFO  : Validating a multipart song-resource file
+2022-10-21 11:58:08 [Test worker] INFO  : Converting multipart file 'multipartFile' to file
+2022-10-21 11:58:08 [Test worker] INFO  : Uploading file 'mpthreetest2.mp3' to bucket 'com.epam.training.microservicefoundation.resourceservice.configuration.AwsS3Configuration$$EnhancerBySpringCGLIB$$affd982e@4af6839c'
+2022-10-21 11:58:09 [Test worker] INFO  : Saving song resource: SongResource{id=0, path='http://127.0.0.1:52737/song-resource/mpthreetest2.mp3', name='mpthreetest2.mp3', createdDate=2022-10-21T11:58:09.001613, lastModifiedDate=null}
+2022-10-21 11:58:09 [Test worker] INFO  : Finding song resource by id 6
+2022-10-21 11:58:09 [Test worker] INFO  : Getting file by id '6'
+2022-10-21 11:58:09 [Test worker] INFO  : Finding song name by id '6'
+2022-10-21 11:58:09 [Test worker] INFO  : Getting song by name 'mpthreetest2.mp3' from bucket 'song-resource'
+2022-10-21 11:58:09 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown initiated...
+2022-10-21 11:58:09 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown completed.
+2022-10-21 20:45:53 [Test worker] INFO  : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest], using SpringBootContextLoader
+2022-10-21 20:45:53 [Test worker] INFO  : Could not detect default resource locations for test class [com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-10-21 20:45:53 [Test worker] INFO  : Could not detect default configuration classes for test class [com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest]: ResourceControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-10-21 20:45:53 [Test worker] INFO  : Found @SpringBootConfiguration com.epam.training.microservicefoundation.resourceservice.ResourceServiceApplication for test class com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest
+2022-10-21 20:45:53 [Test worker] INFO  : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-10-21 20:45:53 [Test worker] INFO  : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@66bfd864, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4aac85fa, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@21fff664, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6079cf5, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1e6308a9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@30cecdca, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6edc4161, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5486887b, org.springframework.test.context.event.EventPublishingTestExecutionListener@5226e402, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1440c311, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@189b5fb1, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@783ec989, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1ddd3478, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@f973499, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4d33940d]
+2022-10-21 20:45:53 [Test worker] INFO  : Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2022-10-21 20:45:53 [Test worker] INFO  : Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2022-10-21 20:45:54 [Test worker] INFO  : Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+2022-10-21 20:45:54 [Test worker] INFO  : Docker host IP address is localhost
+2022-10-21 20:45:54 [Test worker] INFO  : Connected to docker: 
+  Server Version: 20.10.17
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 10215 MB
+2022-10-21 20:45:54 [Test worker] INFO  : Creating container for image: testcontainers/ryuk:0.3.4
+2022-10-21 20:45:55 [Test worker] INFO  : Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+2022-10-21 20:45:55 [Test worker] INFO  : Container testcontainers/ryuk:0.3.4 is starting: fd88cf16815e09e39866e002a2061cc10770548059cd0222722e0615ad460497
+2022-10-21 20:45:55 [Test worker] INFO  : Container testcontainers/ryuk:0.3.4 started in PT0.924291S
+2022-10-21 20:45:55 [Test worker] INFO  : Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2022-10-21 20:45:55 [Test worker] INFO  : Checking the system...
+2022-10-21 20:45:55 [Test worker] INFO  : ✔︎ Docker server version should be at least 1.6.0
+2022-10-21 20:45:55 [Test worker] INFO  : Creating container for image: postgres:12.9-alpine
+2022-10-21 20:45:55 [Test worker] INFO  : Container postgres:12.9-alpine is starting: 595bdbc7a6a370777721e6d085456b122e466a5006b91f00995b7cfcae7555b1
+2022-10-21 20:45:57 [Test worker] INFO  : Container postgres:12.9-alpine started in PT1.523387S
+2022-10-21 20:45:57 [Test worker] INFO  : HOSTNAME_EXTERNAL environment variable set to localhost (to match host-routable address for container)
+2022-10-21 20:45:57 [Test worker] INFO  : Creating container for image: localstack/localstack:1.0.0
+2022-10-21 20:45:57 [Test worker] INFO  : Container localstack/localstack:1.0.0 is starting: 76dac23be0fa47069fa3d2a3fa43539423f757cf4e176247f253041edb760622
+2022-10-21 20:46:01 [Test worker] INFO  : Container localstack/localstack:1.0.0 started in PT4.508476S
+2022-10-21 20:46:03 [Test worker] INFO  : Starting ResourceControllerTest using Java 11.0.16 on EPUZTASW007D with PID 35766 (started by Yusuf_Murodov in /Users/Yusuf_Murodov/Local/epam/traning/microservice-foundation/resource-service)
+2022-10-21 20:46:03 [Test worker] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-10-21 20:46:06 [Test worker] INFO  : Started ResourceControllerTest in 3.305 seconds (JVM running for 15.027)
+2022-10-21 20:46:06 [Test worker] INFO  : HikariPool-1 - Starting...
+2022-10-21 20:46:07 [Test worker] INFO  : HikariPool-1 - Start completed.
+2022-10-21 20:46:07 [Test worker] INFO  : Initializing Spring TestDispatcherServlet ''
+2022-10-21 20:46:07 [Test worker] INFO  : Initializing Servlet ''
+2022-10-21 20:46:07 [Test worker] INFO  : Completed initialization in 1 ms
+2022-10-21 20:46:07 [Test worker] INFO  : Saving multipart file 'multipartFile'
+2022-10-21 20:46:07 [Test worker] INFO  : Saving file 'mpthreetest2.mp3'
+2022-10-21 20:46:07 [Test worker] INFO  : Validating a multipart song-resource file
+2022-10-21 20:46:14 [Test worker] INFO  : Converting multipart file 'multipartFile' to file
+2022-10-21 20:46:14 [Test worker] INFO  : Uploading file 'mpthreetest2.mp3' to bucket 'com.epam.training.microservicefoundation.resourceservice.configuration.AwsS3Configuration$$EnhancerBySpringCGLIB$$a9d72053@198524ec'
+2022-10-21 20:46:14 [Test worker] INFO  : Saving song resource: SongResource{id=0, path='http://127.0.0.1:56037/song-resource/mpthreetest2.mp3', name='mpthreetest2.mp3', createdDate=2022-10-21T20:46:14.590135, lastModifiedDate=null}
+2022-10-21 20:46:25 [Test worker] INFO  : Finding song resource by id 6
+2022-10-21 20:46:39 [Test worker] INFO  : Getting file by id '6'
+2022-10-21 20:46:39 [Test worker] INFO  : Finding song name by id '6'
+2022-10-21 20:46:39 [Test worker] INFO  : Getting song by name 'mpthreetest2.mp3' from bucket 'song-resource'
+2022-10-21 20:47:08 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown initiated...
+2022-10-21 20:47:08 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown completed.
+2022-10-21 20:47:56 [Test worker] INFO  : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest], using SpringBootContextLoader
+2022-10-21 20:47:56 [Test worker] INFO  : Could not detect default resource locations for test class [com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-10-21 20:47:56 [Test worker] INFO  : Could not detect default configuration classes for test class [com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest]: ResourceControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-10-21 20:47:56 [Test worker] INFO  : Found @SpringBootConfiguration com.epam.training.microservicefoundation.resourceservice.ResourceServiceApplication for test class com.epam.training.microservicefoundation.resourceservice.api.ResourceControllerTest
+2022-10-21 20:47:56 [Test worker] INFO  : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-10-21 20:47:56 [Test worker] INFO  : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1917d90f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@66bfd864, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4aac85fa, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@21fff664, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6079cf5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1e6308a9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@30cecdca, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6edc4161, org.springframework.test.context.event.EventPublishingTestExecutionListener@5486887b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5226e402, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1440c311, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@189b5fb1, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@783ec989, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@1ddd3478, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@f973499]
+2022-10-21 20:47:56 [Test worker] INFO  : Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2022-10-21 20:47:56 [Test worker] INFO  : Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2022-10-21 20:47:57 [Test worker] INFO  : Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+2022-10-21 20:47:57 [Test worker] INFO  : Docker host IP address is localhost
+2022-10-21 20:47:57 [Test worker] INFO  : Connected to docker: 
+  Server Version: 20.10.17
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 10215 MB
+2022-10-21 20:47:57 [Test worker] INFO  : Creating container for image: testcontainers/ryuk:0.3.4
+2022-10-21 20:47:57 [Test worker] INFO  : Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+2022-10-21 20:47:57 [Test worker] INFO  : Container testcontainers/ryuk:0.3.4 is starting: a41a2ba16ccf6a965ea6225708e95af0f69271c42af62fd7dcbf36de9235c93b
+2022-10-21 20:47:58 [Test worker] INFO  : Container testcontainers/ryuk:0.3.4 started in PT0.516979S
+2022-10-21 20:47:58 [Test worker] INFO  : Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2022-10-21 20:47:58 [Test worker] INFO  : Checking the system...
+2022-10-21 20:47:58 [Test worker] INFO  : ✔︎ Docker server version should be at least 1.6.0
+2022-10-21 20:47:58 [Test worker] INFO  : Creating container for image: postgres:12.9-alpine
+2022-10-21 20:47:58 [Test worker] INFO  : Container postgres:12.9-alpine is starting: 1b763b075b31dadfd83956ef240db4f6c55679992cb4340f2e7c8b34cf8c17c2
+2022-10-21 20:47:59 [Test worker] INFO  : Container postgres:12.9-alpine started in PT1.488436S
+2022-10-21 20:47:59 [Test worker] INFO  : HOSTNAME_EXTERNAL environment variable set to localhost (to match host-routable address for container)
+2022-10-21 20:47:59 [Test worker] INFO  : Creating container for image: localstack/localstack:1.0.0
+2022-10-21 20:48:00 [Test worker] INFO  : Container localstack/localstack:1.0.0 is starting: eede52d9099bb40e455e6ede5d031e429e6d0252c7fc5649b7afcc7c10892280
+2022-10-21 20:48:04 [Test worker] INFO  : Container localstack/localstack:1.0.0 started in PT4.726959S
+2022-10-21 20:48:07 [Test worker] INFO  : Starting ResourceControllerTest using Java 11.0.16 on EPUZTASW007D with PID 36046 (started by Yusuf_Murodov in /Users/Yusuf_Murodov/Local/epam/traning/microservice-foundation/resource-service)
+2022-10-21 20:48:07 [Test worker] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-10-21 20:48:09 [Test worker] INFO  : Started ResourceControllerTest in 3.323 seconds (JVM running for 14.376)
+2022-10-21 20:48:09 [Test worker] INFO  : HikariPool-1 - Starting...
+2022-10-21 20:48:09 [Test worker] INFO  : HikariPool-1 - Start completed.
+2022-10-21 20:48:10 [Test worker] INFO  : Initializing Spring TestDispatcherServlet ''
+2022-10-21 20:48:10 [Test worker] INFO  : Initializing Servlet ''
+2022-10-21 20:48:10 [Test worker] INFO  : Completed initialization in 1 ms
+2022-10-21 20:48:10 [Test worker] INFO  : Saving multipart file 'multipartFile'
+2022-10-21 20:48:10 [Test worker] INFO  : Saving file 'mpthreetest2.mp3'
+2022-10-21 20:48:10 [Test worker] INFO  : Validating a multipart song-resource file
+2022-10-21 20:48:10 [Test worker] INFO  : Converting multipart file 'multipartFile' to file
+2022-10-21 20:48:10 [Test worker] INFO  : Uploading file 'mpthreetest2.mp3' to bucket 'com.epam.training.microservicefoundation.resourceservice.configuration.AwsS3Configuration$$EnhancerBySpringCGLIB$$5c8376e5@584f4ca5'
+2022-10-21 20:48:10 [Test worker] INFO  : Saving song resource: SongResource{id=0, path='http://127.0.0.1:56084/song-resource/mpthreetest2.mp3', name='mpthreetest2.mp3', createdDate=2022-10-21T20:48:10.563956, lastModifiedDate=null}
+2022-10-21 20:48:10 [Test worker] INFO  : Finding song resource by id 6
+2022-10-21 20:48:10 [Test worker] INFO  : Getting file by id '6'
+2022-10-21 20:48:10 [Test worker] INFO  : Finding song name by id '6'
+2022-10-21 20:48:10 [Test worker] INFO  : Getting song by name 'mpthreetest2.mp3' from bucket 'song-resource'
+2022-10-21 20:48:10 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown initiated...
+2022-10-21 20:48:10 [SpringApplicationShutdownHook] INFO  : HikariPool-1 - Shutdown completed.

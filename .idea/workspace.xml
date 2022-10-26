@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3e414967-7d4d-42cc-b844-c32ec8318865" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/5/05efc8b1657769a27696d478ded1e95f38737233" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/c/1c30faeccc65d7f13adaa47571384f355d5dce03" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/9/29110a90c4f5eae71be711adbd3b3b086212bbf1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/3800b8db715a1cda7779adcc162281d0348d0a52" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/2/722f46ffe1ee68719315fa6479bde0bef62f95f5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/6/a64a1938807fd4e759f4ceba9e07f9c7f085236a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b4fbb502f2049561a8909827e71fd7be8c807be7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/ba253d3ecee4dd3cda47994c304a2589e267e486" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c456662ce764b9446e3d91f19797733b957bb500" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/resource-processor.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-processor/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-processor/src/main/java/com/epam/training/microservicefoundation/resourceprocessor/ResourceProcessorApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-processor/src/main/java/com/epam/training/microservicefoundation/resourceprocessor/configuration/AwsS3Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-processor/src/main/java/com/epam/training/microservicefoundation/resourceprocessor/domain/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-processor/src/main/java/com/epam/training/microservicefoundation/resourceprocessor/domain/ResourceRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-processor/src/main/java/com/epam/training/microservicefoundation/resourceprocessor/domain/SongRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-processor/src/main/java/com/epam/training/microservicefoundation/resourceprocessor/repository/CloudStorageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-processor/src/main/java/com/epam/training/microservicefoundation/resourceprocessor/service/Convertor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-processor/src/main/java/com/epam/training/microservicefoundation/resourceprocessor/service/ResourceConvertor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-processor/src/main/java/com/epam/training/microservicefoundation/resourceprocessor/service/ResourceProcessorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-processor/src/main/java/com/epam/training/microservicefoundation/resourceprocessor/service/ResourceRecordValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-processor/src/main/java/com/epam/training/microservicefoundation/resourceprocessor/service/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-processor/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-processor/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-processor/src/test/java/com/epam/training/microservicefoundation/resourceprocessor/configuration/AwsS3Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-processor/src/test/java/com/epam/training/microservicefoundation/resourceprocessor/repository/s3storage/CloudStorageExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-processor/src/test/java/com/epam/training/microservicefoundation/resourceprocessor/repository/s3storage/CloudStorageRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-processor/src/test/java/com/epam/training/microservicefoundation/resourceprocessor/repository/s3storage/TestStorageContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-processor/src/test/java/com/epam/training/microservicefoundation/resourceprocessor/service/ResourceProcessorServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-processor/src/test/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-processor/src/test/resources/files/mpthreetest.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/logs/archived/resource-service-2022-10-06.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/logs/archived/resource-service-2022-10-07.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/logs/archived/resource-service-2022-10-08.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/logs/archived/resource-service-2022-10-10.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/logs/archived/resource-service-2022-10-10.1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/logs/archived/resource-service-2022-10-11.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/logs/archived/resource-service-2022-10-11.1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/logs/archived/resource-service-2022-10-12.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/logs/archived/resource-service-2022-10-13.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/logs/archived/resource-service-2022-10-14.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/logs/archived/resource-service-2022-10-16.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/logs/archived/resource-service-2022-10-17.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/logs/archived/resource-service-2022-10-18.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/logs/archived/resource-service-2022-10-19.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/logs/archived/resource-service-2022-10-20.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/logs/archived/resource-service-2022-10-21.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/logs/archived/resource-service-2022-10-22.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/logs/resource-service.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/main/java/com/epam/training/microservicefoundation/resourceservice/ResourceServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/main/java/com/epam/training/microservicefoundation/resourceservice/api/ResourceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/main/java/com/epam/training/microservicefoundation/resourceservice/api/ResourceExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/main/java/com/epam/training/microservicefoundation/resourceservice/configuration/AwsS3Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/main/java/com/epam/training/microservicefoundation/resourceservice/domain/APIError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/main/java/com/epam/training/microservicefoundation/resourceservice/domain/FileStorageRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/main/java/com/epam/training/microservicefoundation/resourceservice/domain/FileStorageResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/main/java/com/epam/training/microservicefoundation/resourceservice/domain/Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/main/java/com/epam/training/microservicefoundation/resourceservice/domain/Resource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/main/java/com/epam/training/microservicefoundation/resourceservice/domain/ResourceMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/main/java/com/epam/training/microservicefoundation/resourceservice/domain/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/main/java/com/epam/training/microservicefoundation/resourceservice/domain/ResourceRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/main/java/com/epam/training/microservicefoundation/resourceservice/domain/SongResourceRowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/main/java/com/epam/training/microservicefoundation/resourceservice/repository/CloudStorageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/main/java/com/epam/training/microservicefoundation/resourceservice/repository/JdbcRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/main/java/com/epam/training/microservicefoundation/resourceservice/repository/ResourceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/main/java/com/epam/training/microservicefoundation/resourceservice/service/Convertor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/main/java/com/epam/training/microservicefoundation/resourceservice/service/CsvFileConvertor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/main/java/com/epam/training/microservicefoundation/resourceservice/service/IdParamValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/main/java/com/epam/training/microservicefoundation/resourceservice/service/MultipartFileValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/main/java/com/epam/training/microservicefoundation/resourceservice/service/ResourceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/main/java/com/epam/training/microservicefoundation/resourceservice/service/ResourceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/main/java/com/epam/training/microservicefoundation/resourceservice/service/SongFileConvertor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/main/java/com/epam/training/microservicefoundation/resourceservice/service/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/main/java/com/epam/training/microservicefoundation/resourceservice/util/ResourceSQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/main/resources/logs/archived/resource-service-2022-10-04.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/main/resources/logs/resource-service.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/main/resources/resource-query.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/main/resources/sql/create-schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/main/resources/sql/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/main/resources/sql/drop-schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/test/java/com/epam/training/microservicefoundation/resourceservice/ResourceServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/test/java/com/epam/training/microservicefoundation/resourceservice/api/ResourceControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/test/java/com/epam/training/microservicefoundation/resourceservice/configuration/AwsS3Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/test/java/com/epam/training/microservicefoundation/resourceservice/repository/TestStorageContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/test/java/com/epam/training/microservicefoundation/resourceservice/repository/resourcedatabase/PostgresExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/test/java/com/epam/training/microservicefoundation/resourceservice/repository/resourcedatabase/ResourceRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/test/java/com/epam/training/microservicefoundation/resourceservice/repository/s3storage/CloudStorageExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/test/java/com/epam/training/microservicefoundation/resourceservice/repository/s3storage/CloudStorageRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/test/java/com/epam/training/microservicefoundation/resourceservice/service/ResourceServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/test/java/com/epam/training/microservicefoundation/resourceservice/service/convertor/CsvFileConvertorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/test/java/com/epam/training/microservicefoundation/resourceservice/service/convertor/SongFileConvertorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/test/java/com/epam/training/microservicefoundation/resourceservice/service/validator/IdParamValidatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/test/java/com/epam/training/microservicefoundation/resourceservice/service/validator/MultipartFileValidatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/test/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/test/resources/files/ids.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/test/resources/files/invalid_ids.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/test/resources/files/mpthreetest.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource-service/src/test/resources/files/mpthreetest2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song-service/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song-service/logs/archived/song-service-2022-10-23.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song-service/logs/archived/song-service-2022-10-24.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song-service/logs/archived/song-service-2022-10-24.1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song-service/logs/song-service.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song-service/src/main/java/com/epam/training/microservicefoundation/songservice/SongServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song-service/src/main/java/com/epam/training/microservicefoundation/songservice/api/SongController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song-service/src/main/java/com/epam/training/microservicefoundation/songservice/api/SongExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song-service/src/main/java/com/epam/training/microservicefoundation/songservice/domain/APIError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song-service/src/main/java/com/epam/training/microservicefoundation/songservice/domain/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song-service/src/main/java/com/epam/training/microservicefoundation/songservice/domain/SongNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song-service/src/main/java/com/epam/training/microservicefoundation/songservice/domain/SongRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song-service/src/main/java/com/epam/training/microservicefoundation/songservice/domain/SongRecordId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song-service/src/main/java/com/epam/training/microservicefoundation/songservice/repository/BaseJpaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song-service/src/main/java/com/epam/training/microservicefoundation/songservice/repository/BaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song-service/src/main/java/com/epam/training/microservicefoundation/songservice/repository/SongRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song-service/src/main/java/com/epam/training/microservicefoundation/songservice/repository/implementation/BaseRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song-service/src/main/java/com/epam/training/microservicefoundation/songservice/service/IdParameterValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song-service/src/main/java/com/epam/training/microservicefoundation/songservice/service/Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song-service/src/main/java/com/epam/training/microservicefoundation/songservice/service/SongMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song-service/src/main/java/com/epam/training/microservicefoundation/songservice/service/SongRecordValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song-service/src/main/java/com/epam/training/microservicefoundation/songservice/service/SongService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song-service/src/main/java/com/epam/training/microservicefoundation/songservice/service/SongServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song-service/src/main/java/com/epam/training/microservicefoundation/songservice/service/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song-service/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song-service/src/test/java/com/epam/training/microservicefoundation/songservice/SongServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song-service/src/test/java/com/epam/training/microservicefoundation/songservice/api/SongControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song-service/src/test/java/com/epam/training/microservicefoundation/songservice/repository/PostgresExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song-service/src/test/java/com/epam/training/microservicefoundation/songservice/repository/SongRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song-service/src/test/java/com/epam/training/microservicefoundation/songservice/service/SongServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song-service/src/test/java/com/epam/training/microservicefoundation/songservice/service/validator/SongRecordValidatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song-service/src/test/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song-service/src/test/resources/sql/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song-service/src/test/resources/sql/drop-schema.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="microservice-foundation" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="microservice-foundation" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2FXCYGlMZIP7FlFvdVDlwM7p8WC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-11&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/Yusuf_Murodov/Local/epam/traning/microservice-foundation/resource-processor/src/main/java/com/epam/training/microservicefoundation/resourceprocessor/service&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/Yusuf_Murodov/Local/epam/traning/microservice-foundation/resource-processor/src/main/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.epam.training.microservicefoundation.resourceprocessor.service" />
+      <recent name="com.epam.training.microservicefoundation.resourceprocessor.domain" />
+      <recent name="com.epam.training.microservicefoundation.songservice.domain" />
+      <recent name="com.epam.training.microservicefoundation.songservice.service" />
+      <recent name="com.epam.training.microserivicefoundation.songservice.repository" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resource-processor/src/main/resources" />
+      <recent name="$PROJECT_DIR$/resource-processor/src/test/resources" />
+      <recent name="$PROJECT_DIR$/resource-processor/src/main/java/com/epam/training/microservicefoundation/resourceprocessor/service" />
+      <recent name="$PROJECT_DIR$/resource-processor/src/test/resources/files" />
+      <recent name="$PROJECT_DIR$/resource-processor/src/test/java/com/epam/training/microservicefoundation/resourceprocessor" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/song-service/src/test/resources/sql" />
+      <recent name="$PROJECT_DIR$/song-service/src/main/resources" />
+      <recent name="$PROJECT_DIR$/resource-service/src/test/resources/files" />
+      <recent name="$PROJECT_DIR$/resource-service/src/main/resources/sql" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.epam.training.microservicefoundation.resourceprocessor.api" />
+      <recent name="com.epam.training.microservicefoundation.resourceprocessor.service" />
+      <recent name="com.epam.training.microservicefoundation.resourceservice.service.validator" />
+      <recent name="com.epam.training.microserivicefoundation.songservice" />
+      <recent name="com.epam.training.microservicefoundation.resourceservice.service.convertor" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.epam.training.microservicefoundation.resourceprocessor.repository.s3storage" />
+      <recent name="com.epam.training.microservicefoundation.resourceprocessor.configuration" />
+      <recent name="com.epam.training.microservicefoundation.resourceprocessor.domain" />
+      <recent name="com.epam.training.microservicefoundation.resourceprocessor.repository" />
+      <recent name="com.epam.training.microserivicefoundation.songservice.repository" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ResourceProcessorApplication">
+    <configuration name="ResourceProcessorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.epam.training.microservicefoundation.resourceprocessor.ResourceProcessorApplication" />
+      <module name="microservice-foundation.resource-processor.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.training.microservicefoundation.resourceprocessor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResourceProcessorServiceTest.shouldGetResourceMetadata" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":resource-processor:test" />
+            <option value="--tests" />
+            <option value="&quot;com.epam.training.microservicefoundation.resourceprocessor.service.ResourceProcessorServiceTest.shouldGetResourceMetadata&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ResourceProcessorServiceTest.shouldThrowValidationExceptionWhenGetResourceMetadata" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":resource-processor:test" />
+            <option value="--tests" />
+            <option value="&quot;com.epam.training.microservicefoundation.resourceprocessor.service.ResourceProcessorServiceTest.shouldThrowValidationExceptionWhenGetResourceMetadata&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ResourceProcessorServiceTest.shouldThrowValidationExceptionWhenGetResourceMetadataWithInvalidResourceId" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":resource-processor:test" />
+            <option value="--tests" />
+            <option value="&quot;com.epam.training.microservicefoundation.resourceprocessor.service.ResourceProcessorServiceTest.shouldThrowValidationExceptionWhenGetResourceMetadataWithInvalidResourceId&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ResourceProcessorServiceTest.shouldThrowValidationExceptionWhenGetResourceMetadataWithNullPath" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":resource-processor:test" />
+            <option value="--tests" />
+            <option value="&quot;com.epam.training.microservicefoundation.resourceprocessor.service.ResourceProcessorServiceTest.shouldThrowValidationExceptionWhenGetResourceMetadataWithNullPath&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <option name="AUTO_RESTART" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ResourceProcessorApplication" />
+        <item itemvalue="Gradle.ResourceProcessorServiceTest.shouldGetResourceMetadata" />
+        <item itemvalue="Gradle.ResourceProcessorServiceTest.shouldThrowValidationExceptionWhenGetResourceMetadataWithNullPath" />
+        <item itemvalue="Gradle.ResourceProcessorServiceTest.shouldThrowValidationExceptionWhenGetResourceMetadataWithInvalidResourceId" />
+        <item itemvalue="Gradle.ResourceProcessorServiceTest.shouldThrowValidationExceptionWhenGetResourceMetadata" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e414967-7d4d-42cc-b844-c32ec8318865" name="Changes" comment="" />
+      <created>1664629087820</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664629087820</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/resource-service/src/main/java/com/epam/training/microservicefoundation/resourceservice/repository/ResourceRepository.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/resource-service/src/main/java/com/epam/training/microservicefoundation/resourceservice/repository/ResourceRepository.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/resource-service/src/test/java/com/epam/training/microservicefoundation/resourceservice/repository/s3storage/CloudStorageRepositoryTest.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/resource-service/src/test/java/com/epam/training/microservicefoundation/resourceservice/service/ResourceServiceTest.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/resource-service/src/test/java/com/epam/training/microservicefoundation/resourceservice/service/ResourceServiceTest.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/resource-service/src/test/java/com/epam/training/microservicefoundation/resourceservice/service/ResourceServiceTest.java</url>
+          <line>137</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/resource-service/src/test/java/com/epam/training/microservicefoundation/resourceservice/service/validator/MultipartFileValidatorTest.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/resource-service/src/test/java/com/epam/training/microservicefoundation/resourceservice/api/ResourceControllerTest.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/resource-service/src/test/java/com/epam/training/microservicefoundation/resourceservice/api/ResourceControllerTest.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/resource-service/src/test/java/com/epam/training/microservicefoundation/resourceservice/api/ResourceControllerTest.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/resource-service/src/main/java/com/epam/training/microservicefoundation/resourceservice/service/ResourceServiceImpl.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/resource-service/src/test/java/com/epam/training/microservicefoundation/resourceservice/api/ResourceControllerTest.java</url>
+          <line>119</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/resource-service/src/main/java/com/epam/training/microservicefoundation/resourceservice/service/ResourceServiceImpl.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/resource-service/src/test/java/com/epam/training/microservicefoundation/resourceservice/api/ResourceControllerTest.java</url>
+          <line>138</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/song-service/src/test/java/com/epam/training/microservicefoundation/songservice/repository/SongRepositoryTest.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/song-service/src/test/java/com/epam/training/microservicefoundation/songservice/repository/SongRepositoryTest.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/song-service/src/test/java/com/epam/training/microservicefoundation/songservice/service/SongServiceTest.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/song-service/src/main/java/com/epam/training/microservicefoundation/songservice/service/SongMapper.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/song-service/src/main/java/com/epam/training/microservicefoundation/songservice/service/SongServiceImpl.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/song-service/src/main/java/com/epam/training/microservicefoundation/songservice/service/SongRecordValidator.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/song-service/src/test/java/com/epam/training/microservicefoundation/songservice/api/SongControllerTest.java</url>
+          <line>114</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/resource-processor/src/main/java/com/epam/training/microservicefoundation/resourceprocessor/service/ResourceConvertor.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/resource-processor/src/main/java/com/epam/training/microservicefoundation/resourceprocessor/service/ResourceProcessorService.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/resource-processor/src/main/java/com/epam/training/microservicefoundation/resourceprocessor/service/ResourceConvertor.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/resource-processor/src/main/java/com/epam/training/microservicefoundation/resourceprocessor/service/ResourceProcessorService.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,5 @@
+rootProject.name = 'microservice-foundation'
+include 'song-service'
+include 'resource-service'
+include 'resource-processor'
+
